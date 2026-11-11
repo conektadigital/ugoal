@@ -3,11 +3,11 @@
 export default `
 #autos Autos
 @Nissan
-March|289900
-Versa|339900|versa.webp|versa
+March|299900
+Versa|374900|versa.webp|versa
 V-Drive|289900
-Sentra|429900
-Kicks|439900|kicks.webp|kicks
+Sentra|469900
+Kicks|562900|kicks.webp|kicks
 X-Trail|649900
 NP300 Frontier|459900
 Frontier Pro-4X|789900
@@ -25,7 +25,7 @@ Silverado|899900
 Tahoe|1599900
 @Volkswagen
 Virtus|379900
-Jetta|469900|vw-jetta.webp|vw-jetta
+Jetta|438070|vw-jetta.webp|vw-jetta
 Jetta GLI|629900
 Golf GTI|739900|vw-gti.webp|vw-gti
 Nivus|409900
@@ -50,9 +50,9 @@ GR86|849900
 GR Supra|1399900
 @Kia
 K3 Sedán|359900
-K4 Sedán|409900|kia-k4.webp|kia-k4
-K4 Hatchback|429900|kia-k4-hb.webp|kia-k4-hb
-K4 Hatchback GT-Line|489900|kia-k4-hb.webp
+K4 Sedán|398900|kia-k4.webp|kia-k4
+K4 Hatchback|528900|kia-k4-hb.webp|kia-k4-hb
+K4 Hatchback GT-Line|576900|kia-k4-hb.webp
 Sonet|389900
 Seltos|469900
 Sportage|599900
@@ -61,7 +61,7 @@ Carnival|999900
 EV6|1149900
 @Mazda
 Mazda 2 Sedán|339900
-Mazda 3 Sedán|449900
+Mazda 3 Sedán|403900
 Mazda 3 Hatchback|469900|mazda3-hb.webp|mazda3-hb
 CX-30|509900|mazda-cx30.webp|mazda-cx30
 CX-5|579900

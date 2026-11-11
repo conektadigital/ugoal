@@ -4,9 +4,9 @@ export default `
 @Apple
 iPhone 16e|14999
 iPhone 16|17999|iphone16.webp|iphone16
-iPhone 17|19999
+iPhone 17|21999
 iPhone Air|25999
-iPhone 17 Pro|27999|iphone16pro.webp|iphone16pro
+iPhone 17 Pro|28499|iphone16pro.webp|iphone16pro
 iPhone 17 Pro Max|31999
 @Samsung
 Galaxy A16|3999
@@ -104,10 +104,10 @@ Control DualSense Edge|4299|ps5.webp|ps5
 PS VR2|9999
 @Xbox
 Xbox Series S|7999
-Xbox Series X|12999
+Xbox Series X|16900
 Game Pass Ultimate 1 año|3600
 @Nintendo
-Switch 2|9999
+Switch 2|13999
 Switch OLED|7499|switch-oled.webp|switch-oled
 Switch Lite|4499
 @PC portátil y VR
@@ -210,7 +210,7 @@ iPhone 15|14999
 Phone (3a)|8999
 #gaming Gaming
 @Nintendo
-Switch 2 + Mario Kart World|11499
+Switch 2 + Mario Kart World|14900
 @PlayStation
 PS5 Pro + 2 juegos|17999
 @Xbox
