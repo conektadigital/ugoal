@@ -3,10 +3,6 @@
 "img": "autos-nissan-march.webp",
 "mode": "cut"
 },
-"autos-nissan-v-drive": {
-"img": "autos-nissan-v-drive.webp",
-"mode": "cut"
-},
 "autos-nissan-sentra": {
 "img": "autos-nissan-sentra.webp",
 "mode": "cut"
@@ -31,10 +27,6 @@
 "img": "autos-chevrolet-groove.webp",
 "mode": "cut"
 },
-"autos-chevrolet-tracker": {
-"img": "autos-chevrolet-tracker.webp",
-"mode": "cut"
-},
 "autos-chevrolet-captiva": {
 "img": "autos-chevrolet-captiva.webp",
 "mode": "cut"
@@ -51,16 +43,8 @@
 "img": "autos-chevrolet-tahoe.webp",
 "mode": "cut"
 },
-"autos-volkswagen-virtus": {
-"img": "autos-volkswagen-virtus.webp",
-"mode": "cut"
-},
 "autos-volkswagen-jetta-gli": {
 "img": "autos-volkswagen-jetta-gli.webp",
-"mode": "cut"
-},
-"autos-volkswagen-nivus": {
-"img": "autos-volkswagen-nivus.webp",
 "mode": "cut"
 },
 "autos-volkswagen-taos": {
@@ -99,24 +83,12 @@
 "img": "autos-toyota-camry.webp",
 "mode": "cut"
 },
-"autos-toyota-hilux": {
-"img": "autos-toyota-hilux.webp",
-"mode": "cut"
-},
-"autos-toyota-tacoma": {
-"img": "autos-toyota-tacoma.webp",
-"mode": "cut"
-},
 "autos-toyota-sienna": {
 "img": "autos-toyota-sienna.webp",
 "mode": "cut"
 },
 "autos-toyota-gr86": {
 "img": "autos-toyota-gr86.webp",
-"mode": "cut"
-},
-"autos-toyota-gr-supra": {
-"img": "autos-toyota-gr-supra.webp",
 "mode": "cut"
 },
 "autos-kia-k3-sedan": {
@@ -143,10 +115,6 @@
 "img": "autos-kia-ev6.webp",
 "mode": "cut"
 },
-"autos-mazda-mazda-2-sedan": {
-"img": "autos-mazda-mazda-2-sedan.webp",
-"mode": "cut"
-},
 "autos-mazda-mazda-3-sedan": {
 "img": "autos-mazda-mazda-3-sedan.webp",
 "mode": "cut"
@@ -163,10 +131,6 @@
 "img": "autos-hyundai-grand-i10.webp",
 "mode": "cut"
 },
-"autos-hyundai-hb20": {
-"img": "autos-hyundai-hb20.webp",
-"mode": "cut"
-},
 "autos-hyundai-creta": {
 "img": "autos-hyundai-creta.webp",
 "mode": "cut"
@@ -179,10 +143,6 @@
 "img": "autos-hyundai-santa-fe.webp",
 "mode": "cut"
 },
-"autos-hyundai-ioniq-5": {
-"img": "autos-hyundai-ioniq-5.webp",
-"mode": "cut"
-},
 "autos-honda-city": {
 "img": "autos-honda-city.webp",
 "mode": "cut"
@@ -191,20 +151,8 @@
 "img": "autos-honda-br-v.webp",
 "mode": "cut"
 },
-"autos-honda-hr-v": {
-"img": "autos-honda-hr-v.webp",
-"mode": "cut"
-},
 "autos-honda-accord": {
 "img": "autos-honda-accord.webp",
-"mode": "cut"
-},
-"autos-honda-pilot": {
-"img": "autos-honda-pilot.webp",
-"mode": "cut"
-},
-"autos-honda-civic-type-r": {
-"img": "autos-honda-civic-type-r.webp",
 "mode": "cut"
 },
 "autos-ford-territory": {
@@ -251,10 +199,6 @@
 "img": "autos-mg-gt.webp",
 "mode": "cut"
 },
-"autos-ford-lobo": {
-"img": "autos-ford-lobo.webp",
-"mode": "cut"
-},
 "autos-byd-seal": {
 "img": "autos-byd-seal.webp",
 "mode": "cut"
@@ -295,10 +239,6 @@
 "img": "autos-jeep-grand-cherokee.webp",
 "mode": "cut"
 },
-"autos-suzuki-swift": {
-"img": "autos-suzuki-swift.webp",
-"mode": "cut"
-},
 "autos-renault-koleos": {
 "img": "autos-renault-koleos.webp",
 "mode": "cut"
@@ -307,24 +247,12 @@
 "img": "autos-suzuki-dzire.webp",
 "mode": "cut"
 },
-"autos-suzuki-ignis": {
-"img": "autos-suzuki-ignis.webp",
-"mode": "cut"
-},
-"autos-suzuki-vitara": {
-"img": "autos-suzuki-vitara.webp",
-"mode": "cut"
-},
 "autos-suzuki-ertiga": {
 "img": "autos-suzuki-ertiga.webp",
 "mode": "cut"
 },
 "autos-suzuki-jimny": {
 "img": "autos-suzuki-jimny.webp",
-"mode": "cut"
-},
-"autos-mitsubishi-mirage": {
-"img": "autos-mitsubishi-mirage.webp",
 "mode": "cut"
 },
 "autos-mitsubishi-xpander": {
@@ -359,10 +287,6 @@
 "img": "autos-fiat-500e.webp",
 "mode": "cut"
 },
-"autos-dodge-y-ram-ram-700": {
-"img": "autos-dodge-y-ram-ram-700.webp",
-"mode": "cut"
-},
 "autos-dodge-y-ram-attitude": {
 "img": "autos-dodge-y-ram-attitude.webp",
 "mode": "cut"
@@ -379,16 +303,8 @@
 "img": "autos-dodge-y-ram-ram-trx.webp",
 "mode": "cut"
 },
-"autos-subaru-impreza": {
-"img": "autos-subaru-impreza.webp",
-"mode": "cut"
-},
 "autos-subaru-crosstrek": {
 "img": "autos-subaru-crosstrek.webp",
-"mode": "cut"
-},
-"autos-subaru-wrx": {
-"img": "autos-subaru-wrx.webp",
 "mode": "cut"
 },
 "autos-subaru-forester": {
@@ -419,14 +335,6 @@
 "img": "autos-bmw-m2.webp",
 "mode": "cut"
 },
-"autos-bmw-m3-competition": {
-"img": "autos-bmw-m3-competition.webp",
-"mode": "cut"
-},
-"autos-mercedes-benz-clase-a": {
-"img": "autos-mercedes-benz-clase-a.webp",
-"mode": "cut"
-},
 "autos-mercedes-benz-cla": {
 "img": "autos-mercedes-benz-cla.webp",
 "mode": "cut"
@@ -435,20 +343,12 @@
 "img": "autos-mercedes-benz-gla.webp",
 "mode": "cut"
 },
-"autos-audi-a4": {
-"img": "autos-audi-a4.webp",
-"mode": "cut"
-},
 "autos-audi-q3": {
 "img": "autos-audi-q3.webp",
 "mode": "cut"
 },
 "autos-audi-q5": {
 "img": "autos-audi-q5.webp",
-"mode": "cut"
-},
-"autos-audi-rs-3": {
-"img": "autos-audi-rs-3.webp",
 "mode": "cut"
 },
 "autos-volvo-xc40": {
@@ -471,16 +371,8 @@
 "img": "autos-porsche-macan.webp",
 "mode": "cut"
 },
-"autos-porsche-cayenne": {
-"img": "autos-porsche-cayenne.webp",
-"mode": "cut"
-},
 "autos-lujo-y-suenos-mercedes-amg-gt": {
 "img": "autos-lujo-y-suenos-mercedes-amg-gt.webp",
-"mode": "cut"
-},
-"autos-lujo-y-suenos-range-rover-sport": {
-"img": "autos-lujo-y-suenos-range-rover-sport.webp",
 "mode": "cut"
 },
 "autos-lujo-y-suenos-land-rover-defender": {
@@ -493,14 +385,6 @@
 },
 "autos-yamaha-xtz-250": {
 "img": "autos-yamaha-xtz-250.webp",
-"mode": "cut"
-},
-"autos-yamaha-mt-03": {
-"img": "autos-yamaha-mt-03.webp",
-"mode": "cut"
-},
-"autos-yamaha-r3": {
-"img": "autos-yamaha-r3.webp",
 "mode": "cut"
 },
 "autos-yamaha-r7": {
@@ -517,10 +401,6 @@
 },
 "autos-suzuki-gixxer-150": {
 "img": "autos-suzuki-gixxer-150.webp",
-"mode": "cut"
-},
-"autos-yamaha-fz-2-0": {
-"img": "autos-yamaha-fz-2-0.webp",
 "mode": "cut"
 },
 "autos-honda-africa-twin": {
@@ -555,10 +435,6 @@
 "img": "autos-bmw-motorrad-f-900-r.webp",
 "mode": "cut"
 },
-"autos-harley-davidson-pan-america": {
-"img": "autos-harley-davidson-pan-america.webp",
-"mode": "cut"
-},
 "autos-harley-davidson-fat-boy": {
 "img": "autos-harley-davidson-fat-boy.webp",
 "mode": "cut"
@@ -573,10 +449,6 @@
 },
 "autos-ducati-monster": {
 "img": "autos-ducati-monster.webp",
-"mode": "cut"
-},
-"autos-royal-enfield-hunter-350": {
-"img": "autos-royal-enfield-hunter-350.webp",
 "mode": "cut"
 },
 "autos-ducati-multistrada-v4": {
@@ -623,20 +495,432 @@
 "img": "autos-acura-rdx.webp",
 "mode": "cut"
 },
-"autos-acura-integra": {
-"img": "autos-acura-integra.webp",
-"mode": "cut"
-},
 "autos-lexus-nx": {
 "img": "autos-lexus-nx.webp",
 "mode": "cut"
 },
-"autos-lexus-ux": {
-"img": "autos-lexus-ux.webp",
+"autos-cadillac-y-lincoln-cadillac-escalade": {
+"img": "autos-cadillac-y-lincoln-cadillac-escalade.webp",
 "mode": "cut"
 },
-"autos-lexus-rx": {
-"img": "autos-lexus-rx.webp",
+"autos-cadillac-y-lincoln-lincoln-nautilus": {
+"img": "autos-cadillac-y-lincoln-lincoln-nautilus.webp",
 "mode": "cut"
+},
+"autos-cadillac-y-lincoln-cadillac-lyriq": {
+"img": "autos-cadillac-y-lincoln-cadillac-lyriq.webp",
+"mode": "cut"
+},
+"autos-alfa-romeo-tonale": {
+"img": "autos-alfa-romeo-tonale.webp",
+"mode": "cut"
+},
+"autos-land-rover-range-rover-evoque": {
+"img": "autos-land-rover-range-rover-evoque.webp",
+"mode": "cut"
+},
+"autos-honda-rebel-500": {
+"img": "autos-honda-rebel-500.webp",
+"mode": "cut"
+},
+"autos-honda-cb500x": {
+"img": "autos-honda-cb500x.webp",
+"mode": "cut"
+},
+"autos-yamaha-yzf-r15": {
+"img": "autos-yamaha-yzf-r15.webp",
+"mode": "cut"
+},
+"autos-suzuki-dr650": {
+"img": "autos-suzuki-dr650.webp",
+"mode": "cut"
+},
+"autos-bmw-motorrad-r-18": {
+"img": "autos-bmw-motorrad-r-18.webp",
+"mode": "cut"
+},
+"tech-apple-iphone-air": {
+"img": "tech-apple-iphone-air.webp",
+"mode": "cut"
+},
+"tech-apple-iphone-17-pro-max": {
+"img": "tech-apple-iphone-17-pro-max.webp",
+"mode": "cut"
+},
+"tech-samsung-galaxy-a16": {
+"img": "tech-samsung-galaxy-a16.webp",
+"mode": "cut"
+},
+"tech-samsung-galaxy-z-flip7": {
+"img": "tech-samsung-galaxy-z-flip7.webp",
+"mode": "cut"
+},
+"tech-xiaomi-redmi-15": {
+"img": "tech-xiaomi-redmi-15.webp",
+"mode": "cut"
+},
+"tech-samsung-galaxy-z-fold7": {
+"img": "tech-samsung-galaxy-z-fold7.webp",
+"mode": "cut"
+},
+"tech-xiaomi-redmi-note-14-pro": {
+"img": "tech-xiaomi-redmi-note-14-pro.webp",
+"mode": "cut"
+},
+"tech-xiaomi-xiaomi-15": {
+"img": "tech-xiaomi-xiaomi-15.webp",
+"mode": "cut"
+},
+"tech-google-pixel-10-pro": {
+"img": "tech-google-pixel-10-pro.webp",
+"mode": "cut"
+},
+"tech-google-pixel-9a": {
+"img": "tech-google-pixel-9a.webp",
+"mode": "cut"
+},
+"tech-honor-honor-400": {
+"img": "tech-honor-honor-400.webp",
+"mode": "cut"
+},
+"tech-oppo-find-x8-pro": {
+"img": "tech-oppo-find-x8-pro.webp",
+"mode": "cut"
+},
+"tech-apple-ipad-mini": {
+"img": "tech-apple-ipad-mini.webp",
+"mode": "cut"
+},
+"tech-apple-mac-mini-m4": {
+"img": "tech-apple-mac-mini-m4.webp",
+"mode": "cut"
+},
+"tech-apple-macbook-pro-16": {
+"img": "tech-apple-macbook-pro-16.webp",
+"mode": "cut"
+},
+"tech-hp-pavilion-15": {
+"img": "tech-hp-pavilion-15.webp",
+"mode": "cut"
+},
+"tech-hp-victus-15": {
+"img": "tech-hp-victus-15.webp",
+"mode": "cut"
+},
+"tech-hp-envy-x360": {
+"img": "tech-hp-envy-x360.webp",
+"mode": "cut"
+},
+"tech-lenovo-thinkpad-x1-carbon": {
+"img": "tech-lenovo-thinkpad-x1-carbon.webp",
+"mode": "cut"
+},
+"tech-asus-tuf-gaming-a15": {
+"img": "tech-asus-tuf-gaming-a15.webp",
+"mode": "cut"
+},
+"tech-asus-rog-zephyrus-g14": {
+"img": "tech-asus-rog-zephyrus-g14.webp",
+"mode": "cut"
+},
+"tech-acer-y-msi-acer-aspire-5": {
+"img": "tech-acer-y-msi-acer-aspire-5.webp",
+"mode": "cut"
+},
+"tech-acer-y-msi-acer-nitro-v": {
+"img": "tech-acer-y-msi-acer-nitro-v.webp",
+"mode": "cut"
+},
+"tech-playstation-ps5-pro": {
+"img": "tech-playstation-ps5-pro.webp",
+"mode": "cut"
+},
+"tech-xbox-xbox-series-s": {
+"img": "tech-xbox-xbox-series-s.webp",
+"mode": "cut"
+},
+"tech-nintendo-switch-2": {
+"img": "tech-nintendo-switch-2.webp",
+"mode": "cut"
+},
+"tech-nintendo-switch-lite": {
+"img": "tech-nintendo-switch-lite.webp",
+"mode": "cut"
+},
+"tech-pc-portatil-y-vr-steam-deck-oled": {
+"img": "tech-pc-portatil-y-vr-steam-deck-oled.webp",
+"mode": "cut"
+},
+"tech-bose-quietcomfort-ultra-earbuds": {
+"img": "tech-bose-quietcomfort-ultra-earbuds.webp",
+"mode": "cut"
+},
+"tech-jbl-y-marshall-jbl-flip-7": {
+"img": "tech-jbl-y-marshall-jbl-flip-7.webp",
+"mode": "cut"
+},
+"tech-jbl-y-marshall-jbl-charge-6": {
+"img": "tech-jbl-y-marshall-jbl-charge-6.webp",
+"mode": "cut"
+},
+"tech-beats-y-sonos-beats-solo-4": {
+"img": "tech-beats-y-sonos-beats-solo-4.webp",
+"mode": "cut"
+},
+"tech-garmin-forerunner-265": {
+"img": "tech-garmin-forerunner-265.webp",
+"mode": "cut"
+},
+"tech-garmin-venu-3": {
+"img": "tech-garmin-venu-3.webp",
+"mode": "cut"
+},
+"tech-apple-apple-watch-ultra-3": {
+"img": "tech-apple-apple-watch-ultra-3.webp",
+"mode": "cut"
+},
+"tech-xiaomi-y-huawei-xiaomi-smart-band-9": {
+"img": "tech-xiaomi-y-huawei-xiaomi-smart-band-9.webp",
+"mode": "cut"
+},
+"tech-canon-eos-r6-mark-ii": {
+"img": "tech-canon-eos-r6-mark-ii.webp",
+"mode": "cut"
+},
+"tech-sony-alpha-6700": {
+"img": "tech-sony-alpha-6700.webp",
+"mode": "cut"
+},
+"tech-fujifilm-instax-mini-12": {
+"img": "tech-fujifilm-instax-mini-12.webp",
+"mode": "cut"
+},
+"tech-dji-dji-neo": {
+"img": "tech-dji-dji-neo.webp",
+"mode": "cut"
+},
+"tech-dji-osmo-action-5-pro": {
+"img": "tech-dji-osmo-action-5-pro.webp",
+"mode": "cut"
+},
+"tech-xiaomi-xiaomi-14t": {
+"img": "tech-xiaomi-xiaomi-14t.webp",
+"mode": "cut"
+},
+"tech-samsung-galaxy-a26": {
+"img": "tech-samsung-galaxy-a26.webp",
+"mode": "cut"
+},
+"tech-xiaomi-poco-m7-pro": {
+"img": "tech-xiaomi-poco-m7-pro.webp",
+"mode": "cut"
+},
+"tech-apple-iphone-15": {
+"img": "tech-apple-iphone-15.webp",
+"mode": "cut"
+},
+"tech-setup-webcam-logitech-c922": {
+"img": "tech-setup-webcam-logitech-c922.webp",
+"mode": "cut"
+},
+"tech-amazon-echo-show-8": {
+"img": "tech-amazon-echo-show-8.webp",
+"mode": "cut"
+},
+"tech-amazon-fire-tv-stick-4k": {
+"img": "tech-amazon-fire-tv-stick-4k.webp",
+"mode": "cut"
+},
+"tech-google-nest-mini": {
+"img": "tech-google-nest-mini.webp",
+"mode": "cut"
+},
+"tech-apple-apple-tv-4k": {
+"img": "tech-apple-apple-tv-4k.webp",
+"mode": "cut"
+},
+"tech-apple-homepod-mini": {
+"img": "tech-apple-homepod-mini.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-95": {
+"img": "moda-nike-air-max-95.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-90": {
+"img": "moda-nike-air-max-90.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-97": {
+"img": "moda-nike-air-max-97.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-plus-tn": {
+"img": "moda-nike-air-max-plus-tn.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-1": {
+"img": "moda-nike-air-max-1.webp",
+"mode": "cut"
+},
+"moda-nike-vomero-5": {
+"img": "moda-nike-vomero-5.webp",
+"mode": "cut"
+},
+"moda-adidas-gazelle": {
+"img": "moda-adidas-gazelle.webp",
+"mode": "cut"
+},
+"moda-adidas-handball-spezial": {
+"img": "moda-adidas-handball-spezial.webp",
+"mode": "cut"
+},
+"moda-adidas-superstar": {
+"img": "moda-adidas-superstar.webp",
+"mode": "cut"
+},
+"moda-adidas-stan-smith": {
+"img": "moda-adidas-stan-smith.webp",
+"mode": "cut"
+},
+"moda-adidas-forum-low": {
+"img": "moda-adidas-forum-low.webp",
+"mode": "cut"
+},
+"moda-adidas-sl-72": {
+"img": "moda-adidas-sl-72.webp",
+"mode": "cut"
+},
+"moda-new-balance-2002r": {
+"img": "moda-new-balance-2002r.webp",
+"mode": "cut"
+},
+"moda-new-balance-1906r": {
+"img": "moda-new-balance-1906r.webp",
+"mode": "cut"
+},
+"moda-puma-speedcat": {
+"img": "moda-puma-speedcat.webp",
+"mode": "cut"
+},
+"moda-vans-knu-skool": {
+"img": "moda-vans-knu-skool.webp",
+"mode": "cut"
+},
+"moda-vans-authentic": {
+"img": "moda-vans-authentic.webp",
+"mode": "cut"
+},
+"moda-asics-y-onitsuka-onitsuka-mexico-66": {
+"img": "moda-asics-y-onitsuka-onitsuka-mexico-66.webp",
+"mode": "cut"
+},
+"moda-on-y-hoka-hoka-clifton-10": {
+"img": "moda-on-y-hoka-hoka-clifton-10.webp",
+"mode": "cut"
+},
+"moda-ralph-lauren-y-lacoste-sweater-ralph-lauren": {
+"img": "moda-ralph-lauren-y-lacoste-sweater-ralph-lauren.webp",
+"mode": "cut"
+},
+"moda-ralph-lauren-y-lacoste-polo-lacoste": {
+"img": "moda-ralph-lauren-y-lacoste-polo-lacoste.webp",
+"mode": "cut"
+},
+"moda-seiko-y-citizen-citizen-promaster-diver": {
+"img": "moda-seiko-y-citizen-citizen-promaster-diver.webp",
+"mode": "cut"
+},
+"moda-swatch-y-tissot-omega-swatch-moonswatch": {
+"img": "moda-swatch-y-tissot-omega-swatch-moonswatch.webp",
+"mode": "cut"
+},
+"moda-swatch-y-tissot-tissot-seastar": {
+"img": "moda-swatch-y-tissot-tissot-seastar.webp",
+"mode": "cut"
+},
+"moda-swatch-y-tissot-hamilton-khaki-field": {
+"img": "moda-swatch-y-tissot-hamilton-khaki-field.webp",
+"mode": "cut"
+},
+"moda-tag-heuer-y-omega-tag-heuer-aquaracer": {
+"img": "moda-tag-heuer-y-omega-tag-heuer-aquaracer.webp",
+"mode": "cut"
+},
+"moda-rolex-gmt-master-ii": {
+"img": "moda-rolex-gmt-master-ii.webp",
+"mode": "cut"
+},
+"moda-joyeria-cartier-tank-must": {
+"img": "moda-joyeria-cartier-tank-must.webp",
+"mode": "cut"
+},
+"moda-perfumes-versace-eros": {
+"img": "moda-perfumes-versace-eros.webp",
+"mode": "cut"
+},
+"moda-perfumes-chanel-coco-mademoiselle": {
+"img": "moda-perfumes-chanel-coco-mademoiselle.webp",
+"mode": "cut"
+},
+"moda-bolsas-y-mochilas-michael-kors-jet-set": {
+"img": "moda-bolsas-y-mochilas-michael-kors-jet-set.webp",
+"mode": "cut"
+},
+"moda-nike-air-max-dn": {
+"img": "moda-nike-air-max-dn.webp",
+"mode": "cut"
+},
+"moda-adidas-spezial": {
+"img": "moda-adidas-spezial.webp",
+"mode": "cut"
+},
+"moda-asics-y-onitsuka-gt-2160": {
+"img": "moda-asics-y-onitsuka-gt-2160.webp",
+"mode": "cut"
+},
+"viajes-pueblos-y-naturaleza-san-cristobal-de-las-casas": {
+"img": "viajes-pueblos-y-naturaleza-san-cristobal-de-las-casas.webp",
+"mode": "full"
+},
+"viajes-ciudades-guadalajara": {
+"img": "viajes-ciudades-guadalajara.webp",
+"mode": "full"
+},
+"viajes-ciudades-monterrey": {
+"img": "viajes-ciudades-monterrey.webp",
+"mode": "full"
+},
+"viajes-estados-unidos-san-francisco": {
+"img": "viajes-estados-unidos-san-francisco.webp",
+"mode": "full"
+},
+"viajes-mundo-budapest": {
+"img": "viajes-mundo-budapest.webp",
+"mode": "full"
+},
+"casa-home-office-silla-herman-miller-aeron": {
+"img": "casa-home-office-silla-herman-miller-aeron.webp",
+"mode": "full"
+},
+"negocio-comida-puesto-de-tacos": {
+"img": "negocio-comida-puesto-de-tacos.webp",
+"mode": "full"
+},
+"eventos-fiestas-posada-y-navidad": {
+"img": "eventos-fiestas-posada-y-navidad.webp",
+"mode": "full"
+},
+"salud-dental-blanqueamiento-dental": {
+"img": "salud-dental-blanqueamiento-dental.webp",
+"mode": "full"
+},
+"salud-dental-implante-dental": {
+"img": "salud-dental-implante-dental.webp",
+"mode": "full"
+},
+"salud-vista-cirugia-laser-lasik": {
+"img": "salud-vista-cirugia-laser-lasik.webp",
+"mode": "full"
 }
 }
