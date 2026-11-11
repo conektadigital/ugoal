@@ -111,12 +111,15 @@ function parse(cat: CatKey, src: string): CatalogItem[] {
   }
   return out
 }
-export const CATALOG: CatalogItem[] = [
+const ALL: CatalogItem[] = [
   ...parse('autos', autos), ...parse('tech', tech), ...parse('moda', moda), ...parse('viajes', viajes), ...parse('casa', casa),
   ...parse('eventos', eventos), ...parse('finanzas', finanzas), ...parse('deudas', deudas), ...parse('negocio', negocio), ...parse('escuela', escuela),
   ...parse('fisico', fisico), ...parse('salud', salud), ...parse('estudios', estudios), ...parse('vicios', vicios),
 ]
-export const ITEM = Object.fromEntries(CATALOG.map(i => [i.id, i])) as Record<string, CatalogItem>
+/** Solo se muestran ideas con foto real verificada: sin tarjetas en blanco ni fotos que no correspondan. */
+export const CATALOG: CatalogItem[] = ALL.filter(i => !i.img.startsWith('ph:'))
+export const HIDDEN = ALL.filter(i => i.img.startsWith('ph:'))
+export const ITEM = Object.fromEntries(ALL.map(i => [i.id, i])) as Record<string, CatalogItem>
 export const byCat = (k: CatKey) => CATALOG.filter(i => i.cat === k)
 /** Tipos de una categoría, en orden, con su etiqueta. */
 const TYPE_LABELS: Record<string, string> = {}

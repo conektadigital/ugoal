@@ -110,7 +110,7 @@ function MoneyBlock({ g, onAporte }: { g: Goal; onAporte: () => void }) {
           <span className="t-xs">Cada {freqWord(profile.pay)}{profile.pay === 'variable' ? ' · júntalo como puedas' : ''}</span>
           <span style={{ fontSize: 34, fontWeight: 700, letterSpacing: '-0.04em' }} className="lime">{money(p.per)}</span>
           <span className="t-sm">{p.periods} pagos hasta el {fDate(g.due)} · {daysUntil(g.due)} días</span>
-          {p.behind && <span style={{ color: 'var(--warn)', fontWeight: 600, fontSize: 14, marginTop: 6 }}>{pick(BEHIND)} Aparta {money(p.per - p.diff)} en tu próximo pago.</span>}
+          {p.behind && <span style={{ color: 'var(--warn)', fontWeight: 600, fontSize: 14, marginTop: 6 }}>{pick(BEHIND)} Aparta {money(p.catchUp)} en tu próximo pago.</span>}
           {!p.behind && saved(g) > 0 && <span style={{ color: 'var(--lime-text)', fontWeight: 600, fontSize: 14, marginTop: 6 }}>Vas al ritmo. Sigue así.</span>}
         </div>
       )}

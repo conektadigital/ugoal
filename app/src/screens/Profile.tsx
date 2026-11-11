@@ -51,7 +51,7 @@ export default function Profile() {
       </section>
 
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
-        {[[<Flame key="f" size={18} />, `${st}`, st === 1 ? 'semana seguida' : 'semanas seguidas'], [<Trophy key="t" size={18} />, `${done}`, done === 1 ? 'sueño cumplido' : 'sueños cumplidos'], [<span key="m" style={{ fontWeight: 800 }}>$</span>, money(total).replace('$', ''), 'apartado']].map(([i, v, l], k) => (
+        {[[<Flame key="f" size={18} />, `${st}`, st === 1 ? 'semana seguida' : 'semanas seguidas'], [<Trophy key="t" size={18} />, `${done}`, done === 1 ? 'sueño cumplido' : 'sueños cumplidos'], [<span key="m" style={{ fontWeight: 800 }}>$</span>, money(Math.round(total)), 'apartado']].map(([i, v, l], k) => (
           <div key={k} className="card" style={{ padding: 14, gap: 6 }}><span className="lime">{i}</span><b style={{ fontSize: 20, letterSpacing: '-0.03em' }}>{v}</b><span className="t-sm" style={{ fontSize: 12 }}>{l}</span></div>
         ))}
       </section>

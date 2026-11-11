@@ -156,7 +156,7 @@ export default function Home() {
               {p?.behind && (
                 <div className="card" style={{ background: 'var(--warn-soft)', borderColor: 'transparent', padding: 14, gap: 4 }}>
                   <b style={{ color: 'var(--warn)' }}>{pick(BEHIND, dailySeed())}</b>
-                  <span className="t-sm" style={{ color: 'var(--ink-2)' }}>Aparta {money(p.per - p.diff)} en tu próximo pago para regresar al ritmo.</span>
+                  <span className="t-sm" style={{ color: 'var(--ink-2)' }}>Aparta {money(p.catchUp)} en tu próximo pago para regresar al ritmo.</span>
                 </div>
               )}
               {isMoney(main)

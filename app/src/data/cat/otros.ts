@@ -165,38 +165,38 @@ Curso de fotografía|0|foto.webp|foto
 @Lectura
 Leer 24 libros al año|0|lectura.webp|lectura
 @Más para aprender
-Aprender a nadar|0|nadar.webp
-Aprender a manejar estándar|0|manejo.webp
-Inglés para el trabajo|0|ingles.webp
-Aprender alemán|0|frances.webp
-Aprender coreano|0|japones.webp
-Certificación de Google|0|datos.webp
-Curso de inteligencia artificial|0|programacion.webp
-Aprender a invertir|0|cetes.webp
-Curso de oratoria|0|marketing.webp
-Leer 12 libros al año|0|lectura.webp
+Aprender a nadar|0|
+Aprender a manejar estándar|0|
+Inglés para el trabajo|0|
+Aprender alemán|0|
+Aprender coreano|0|
+Certificación de Google|0|
+Curso de inteligencia artificial|0|
+Aprender a invertir|0|
+Curso de oratoria|0|
+Leer 12 libros al año|0|
 `
 export const escuela = `
 #escuela Escuela
 @Universidad
 Colegiatura de la uni (semestre)|45000|titulacion.webp|uni-semestre||Inscripción:6000,Colegiatura del semestre:39000
-Inscripción a la uni|8000|titulacion.webp
-Titulación|25000|titulacion.webp
+Inscripción a la uni|8000|
+Titulación|25000|
 Maestría|180000|maestria.webp|maestria||Inscripción:15000,Colegiaturas:155000,Titulación:10000
-MBA|450000|maestria.webp
+MBA|450000|
 @Prepa
-Colegiatura de prepa (semestre)|30000|diplomado.webp||Inscripción:5000,Colegiatura:25000
-Curso de admisión a la uni|9000|diplomado.webp
+Colegiatura de prepa (semestre)|30000|||Inscripción:5000,Colegiatura:25000
+Curso de admisión a la uni|9000|
 @Escuela de los hijos
-Colegiatura de primaria (año)|50000|lectura.webp||Inscripción:6000,Colegiaturas:40000,Útiles y uniformes:4000
-Colegiatura de secundaria (año)|60000|lectura.webp||Inscripción:7000,Colegiaturas:48000,Útiles y uniformes:5000
-Útiles y uniformes|5000|lectura.webp
+Colegiatura de primaria (año)|50000|||Inscripción:6000,Colegiaturas:40000,Útiles y uniformes:4000
+Colegiatura de secundaria (año)|60000|||Inscripción:7000,Colegiaturas:48000,Útiles y uniformes:5000
+Útiles y uniformes|5000|
 @Cursos y certificaciones
-Curso de inglés (1 año)|18000|ingles.webp
-Diplomado en línea|15000|diplomado.webp
-Bootcamp de programación|60000|programacion.webp
-Certificación profesional|20000|pmp.webp
-Clases de manejo|5000|manejo.webp
+Curso de inglés (1 año)|18000|
+Diplomado en línea|15000|
+Bootcamp de programación|60000|
+Certificación profesional|20000|
+Clases de manejo|5000|
 `
 export const negocio = `
 #negocio Negocio
@@ -268,18 +268,18 @@ export const deudas = `
 @Tarjetas y préstamos
 Salir de mi tarjeta de crédito|30000|tarjeta.webp|tarjeta
 Liquidar un préstamo personal|50000|prestamo.webp|prestamo
-Crédito de nómina|40000|prestamo.webp
-Tienda departamental (Coppel, Elektra, Liverpool)|15000|tarjeta.webp
-Crédito automotriz|120000|prestamo.webp
+Crédito de nómina|40000|
+Tienda departamental (Coppel, Elektra, Liverpool)|15000|
+Crédito automotriz|120000|
 @Personas
 Pagarle a mi familia|10000|deuda-familiar.webp|deuda-familiar
-Pagarle a un amigo|5000|deuda-familiar.webp
+Pagarle a un amigo|5000|
 @Plan completo
 Bola de nieve: todas mis deudas|0|tarjeta.webp|bola-nieve
 @Servicios atrasados
-Ponerme al corriente con la renta|15000|deuda-familiar.webp
-Pagar mi crédito Infonavit atrasado|25000|prestamo.webp
-Pagar multas o tenencia|8000|prestamo.webp
+Ponerme al corriente con la renta|15000|
+Pagar mi crédito Infonavit atrasado|25000|
+Pagar multas o tenencia|8000|
 `
 export const salud = `
 #salud Salud y belleza

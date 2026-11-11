@@ -304,7 +304,7 @@ function Details({ cat, itemId }: { cat: CatKey; itemId: string }) {
   const mine = flex ? total : total / Math.max(1, members)
   const haveN = n(have)
   const periods = useMemo(() => Math.max(1, payDates(profile.pay, due).length), [profile.pay, due])
-  const per = Math.max(0, mine - haveN) / periods
+  const per = Math.ceil(Math.max(0, mine - haveN) / periods)
   const creditDef = { full, pct, months, rate: n(rate) }
 
   if (!photo) return <div className="screen"><Header title="Falta la foto" onBack={() => go(`/nueva/${cat}`)} /><button className="btn" onClick={() => go(`/nueva/${cat}`)}>Elegir de nuevo</button></div>

@@ -92,12 +92,15 @@ export function pace(g: Goal, freq: PayFreq) {
   const left = remaining(g)
   const dates = payDates(freq, g.due)
   const periods = Math.max(1, dates.length)
-  const per = left / periods
+  const per = Math.ceil(left / periods)
   const total = Math.max(1, (parse(g.due).getTime() - parse(g.start).getTime()) / DAY)
   const elapsed = Math.min(total, Math.max(0, (today().getTime() - parse(g.start).getTime()) / DAY))
   const expected = myPrice(g) * (elapsed / total)
   const diff = saved(g) - expected
-  return { per, periods, nextPay: dates[0], diff, behind: diff < -Math.max(50, per * 0.25) }
+  // Solo avisa que vas atrasado después de 2 semanas (antes no es justo) y si la diferencia importa.
+  const behind = elapsed >= 14 && diff < -Math.max(100, per * 0.5)
+  const catchUp = Math.ceil(Math.max(per, per - diff) / 10) * 10
+  return { per, periods, nextPay: dates[0], diff, behind, catchUp }
 }
 
 /** ¿Y si aparto otra cantidad? Devuelve en qué fecha la cumplirías. */
