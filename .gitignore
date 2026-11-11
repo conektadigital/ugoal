@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+tools/raw
+tools/cands
+tools/cands2
+tools/sheet-*.jpg
+*.log
+tools/raw2
+tools/sheet2-*.jpg
+tools/photo-cands.json
+tools/published.json
+tools/publish-files.json
+tools/__pycache__

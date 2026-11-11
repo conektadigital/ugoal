@@ -1,0 +1,642 @@
+{
+"autos-nissan-march": {
+"img": "autos-nissan-march.webp",
+"mode": "cut"
+},
+"autos-nissan-v-drive": {
+"img": "autos-nissan-v-drive.webp",
+"mode": "cut"
+},
+"autos-nissan-sentra": {
+"img": "autos-nissan-sentra.webp",
+"mode": "cut"
+},
+"autos-nissan-x-trail": {
+"img": "autos-nissan-x-trail.webp",
+"mode": "cut"
+},
+"autos-nissan-pathfinder": {
+"img": "autos-nissan-pathfinder.webp",
+"mode": "cut"
+},
+"autos-chevrolet-aveo": {
+"img": "autos-chevrolet-aveo.webp",
+"mode": "cut"
+},
+"autos-chevrolet-onix": {
+"img": "autos-chevrolet-onix.webp",
+"mode": "cut"
+},
+"autos-chevrolet-groove": {
+"img": "autos-chevrolet-groove.webp",
+"mode": "cut"
+},
+"autos-chevrolet-tracker": {
+"img": "autos-chevrolet-tracker.webp",
+"mode": "cut"
+},
+"autos-chevrolet-captiva": {
+"img": "autos-chevrolet-captiva.webp",
+"mode": "cut"
+},
+"autos-chevrolet-equinox": {
+"img": "autos-chevrolet-equinox.webp",
+"mode": "cut"
+},
+"autos-chevrolet-silverado": {
+"img": "autos-chevrolet-silverado.webp",
+"mode": "cut"
+},
+"autos-chevrolet-tahoe": {
+"img": "autos-chevrolet-tahoe.webp",
+"mode": "cut"
+},
+"autos-volkswagen-virtus": {
+"img": "autos-volkswagen-virtus.webp",
+"mode": "cut"
+},
+"autos-volkswagen-jetta-gli": {
+"img": "autos-volkswagen-jetta-gli.webp",
+"mode": "cut"
+},
+"autos-volkswagen-nivus": {
+"img": "autos-volkswagen-nivus.webp",
+"mode": "cut"
+},
+"autos-volkswagen-taos": {
+"img": "autos-volkswagen-taos.webp",
+"mode": "cut"
+},
+"autos-volkswagen-tiguan": {
+"img": "autos-volkswagen-tiguan.webp",
+"mode": "cut"
+},
+"autos-volkswagen-teramont": {
+"img": "autos-volkswagen-teramont.webp",
+"mode": "cut"
+},
+"autos-volkswagen-amarok": {
+"img": "autos-volkswagen-amarok.webp",
+"mode": "cut"
+},
+"autos-toyota-raize": {
+"img": "autos-toyota-raize.webp",
+"mode": "cut"
+},
+"autos-toyota-yaris-sedan": {
+"img": "autos-toyota-yaris-sedan.webp",
+"mode": "cut"
+},
+"autos-toyota-corolla-cross": {
+"img": "autos-toyota-corolla-cross.webp",
+"mode": "cut"
+},
+"autos-toyota-prius": {
+"img": "autos-toyota-prius.webp",
+"mode": "cut"
+},
+"autos-toyota-camry": {
+"img": "autos-toyota-camry.webp",
+"mode": "cut"
+},
+"autos-toyota-hilux": {
+"img": "autos-toyota-hilux.webp",
+"mode": "cut"
+},
+"autos-toyota-tacoma": {
+"img": "autos-toyota-tacoma.webp",
+"mode": "cut"
+},
+"autos-toyota-sienna": {
+"img": "autos-toyota-sienna.webp",
+"mode": "cut"
+},
+"autos-toyota-gr86": {
+"img": "autos-toyota-gr86.webp",
+"mode": "cut"
+},
+"autos-toyota-gr-supra": {
+"img": "autos-toyota-gr-supra.webp",
+"mode": "cut"
+},
+"autos-kia-k3-sedan": {
+"img": "autos-kia-k3-sedan.webp",
+"mode": "cut"
+},
+"autos-kia-sonet": {
+"img": "autos-kia-sonet.webp",
+"mode": "cut"
+},
+"autos-kia-seltos": {
+"img": "autos-kia-seltos.webp",
+"mode": "cut"
+},
+"autos-kia-sportage": {
+"img": "autos-kia-sportage.webp",
+"mode": "cut"
+},
+"autos-kia-sorento": {
+"img": "autos-kia-sorento.webp",
+"mode": "cut"
+},
+"autos-kia-ev6": {
+"img": "autos-kia-ev6.webp",
+"mode": "cut"
+},
+"autos-mazda-mazda-2-sedan": {
+"img": "autos-mazda-mazda-2-sedan.webp",
+"mode": "cut"
+},
+"autos-mazda-mazda-3-sedan": {
+"img": "autos-mazda-mazda-3-sedan.webp",
+"mode": "cut"
+},
+"autos-mazda-cx-5": {
+"img": "autos-mazda-cx-5.webp",
+"mode": "cut"
+},
+"autos-mazda-cx-50": {
+"img": "autos-mazda-cx-50.webp",
+"mode": "cut"
+},
+"autos-hyundai-grand-i10": {
+"img": "autos-hyundai-grand-i10.webp",
+"mode": "cut"
+},
+"autos-hyundai-hb20": {
+"img": "autos-hyundai-hb20.webp",
+"mode": "cut"
+},
+"autos-hyundai-creta": {
+"img": "autos-hyundai-creta.webp",
+"mode": "cut"
+},
+"autos-hyundai-elantra": {
+"img": "autos-hyundai-elantra.webp",
+"mode": "cut"
+},
+"autos-hyundai-santa-fe": {
+"img": "autos-hyundai-santa-fe.webp",
+"mode": "cut"
+},
+"autos-hyundai-ioniq-5": {
+"img": "autos-hyundai-ioniq-5.webp",
+"mode": "cut"
+},
+"autos-honda-city": {
+"img": "autos-honda-city.webp",
+"mode": "cut"
+},
+"autos-honda-br-v": {
+"img": "autos-honda-br-v.webp",
+"mode": "cut"
+},
+"autos-honda-hr-v": {
+"img": "autos-honda-hr-v.webp",
+"mode": "cut"
+},
+"autos-honda-accord": {
+"img": "autos-honda-accord.webp",
+"mode": "cut"
+},
+"autos-honda-pilot": {
+"img": "autos-honda-pilot.webp",
+"mode": "cut"
+},
+"autos-honda-civic-type-r": {
+"img": "autos-honda-civic-type-r.webp",
+"mode": "cut"
+},
+"autos-ford-territory": {
+"img": "autos-ford-territory.webp",
+"mode": "cut"
+},
+"autos-kia-carnival": {
+"img": "autos-kia-carnival.webp",
+"mode": "cut"
+},
+"autos-volkswagen-t-cross": {
+"img": "autos-volkswagen-t-cross.webp",
+"mode": "cut"
+},
+"autos-ford-escape": {
+"img": "autos-ford-escape.webp",
+"mode": "cut"
+},
+"autos-ford-bronco-sport": {
+"img": "autos-ford-bronco-sport.webp",
+"mode": "cut"
+},
+"autos-mg-mg5": {
+"img": "autos-mg-mg5.webp",
+"mode": "cut"
+},
+"autos-mg-mg3": {
+"img": "autos-mg-mg3.webp",
+"mode": "cut"
+},
+"autos-mg-zs": {
+"img": "autos-mg-zs.webp",
+"mode": "cut"
+},
+"autos-mg-hs": {
+"img": "autos-mg-hs.webp",
+"mode": "cut"
+},
+"autos-ford-bronco": {
+"img": "autos-ford-bronco.webp",
+"mode": "cut"
+},
+"autos-mg-gt": {
+"img": "autos-mg-gt.webp",
+"mode": "cut"
+},
+"autos-ford-lobo": {
+"img": "autos-ford-lobo.webp",
+"mode": "cut"
+},
+"autos-byd-seal": {
+"img": "autos-byd-seal.webp",
+"mode": "cut"
+},
+"autos-byd-song-plus": {
+"img": "autos-byd-song-plus.webp",
+"mode": "cut"
+},
+"autos-byd-shark": {
+"img": "autos-byd-shark.webp",
+"mode": "cut"
+},
+"autos-byd-king": {
+"img": "autos-byd-king.webp",
+"mode": "cut"
+},
+"autos-byd-han": {
+"img": "autos-byd-han.webp",
+"mode": "cut"
+},
+"autos-jeep-renegade": {
+"img": "autos-jeep-renegade.webp",
+"mode": "cut"
+},
+"autos-jeep-compass": {
+"img": "autos-jeep-compass.webp",
+"mode": "cut"
+},
+"autos-jeep-commander": {
+"img": "autos-jeep-commander.webp",
+"mode": "cut"
+},
+"autos-jeep-gladiator": {
+"img": "autos-jeep-gladiator.webp",
+"mode": "cut"
+},
+"autos-jeep-grand-cherokee": {
+"img": "autos-jeep-grand-cherokee.webp",
+"mode": "cut"
+},
+"autos-suzuki-swift": {
+"img": "autos-suzuki-swift.webp",
+"mode": "cut"
+},
+"autos-renault-koleos": {
+"img": "autos-renault-koleos.webp",
+"mode": "cut"
+},
+"autos-suzuki-dzire": {
+"img": "autos-suzuki-dzire.webp",
+"mode": "cut"
+},
+"autos-suzuki-ignis": {
+"img": "autos-suzuki-ignis.webp",
+"mode": "cut"
+},
+"autos-suzuki-vitara": {
+"img": "autos-suzuki-vitara.webp",
+"mode": "cut"
+},
+"autos-suzuki-ertiga": {
+"img": "autos-suzuki-ertiga.webp",
+"mode": "cut"
+},
+"autos-suzuki-jimny": {
+"img": "autos-suzuki-jimny.webp",
+"mode": "cut"
+},
+"autos-mitsubishi-mirage": {
+"img": "autos-mitsubishi-mirage.webp",
+"mode": "cut"
+},
+"autos-mitsubishi-xpander": {
+"img": "autos-mitsubishi-xpander.webp",
+"mode": "cut"
+},
+"autos-mitsubishi-outlander": {
+"img": "autos-mitsubishi-outlander.webp",
+"mode": "cut"
+},
+"autos-peugeot-landtrek": {
+"img": "autos-peugeot-landtrek.webp",
+"mode": "cut"
+},
+"autos-gwm-ora-03": {
+"img": "autos-gwm-ora-03.webp",
+"mode": "cut"
+},
+"autos-gwm-tank-300": {
+"img": "autos-gwm-tank-300.webp",
+"mode": "cut"
+},
+"autos-jac-e10x": {
+"img": "autos-jac-e10x.webp",
+"mode": "cut"
+},
+"autos-tesla-model-y": {
+"img": "autos-tesla-model-y.webp",
+"mode": "cut"
+},
+"autos-fiat-500e": {
+"img": "autos-fiat-500e.webp",
+"mode": "cut"
+},
+"autos-dodge-y-ram-ram-700": {
+"img": "autos-dodge-y-ram-ram-700.webp",
+"mode": "cut"
+},
+"autos-dodge-y-ram-attitude": {
+"img": "autos-dodge-y-ram-attitude.webp",
+"mode": "cut"
+},
+"autos-dodge-y-ram-ram-1500": {
+"img": "autos-dodge-y-ram-ram-1500.webp",
+"mode": "cut"
+},
+"autos-dodge-y-ram-durango": {
+"img": "autos-dodge-y-ram-durango.webp",
+"mode": "cut"
+},
+"autos-dodge-y-ram-ram-trx": {
+"img": "autos-dodge-y-ram-ram-trx.webp",
+"mode": "cut"
+},
+"autos-subaru-impreza": {
+"img": "autos-subaru-impreza.webp",
+"mode": "cut"
+},
+"autos-subaru-crosstrek": {
+"img": "autos-subaru-crosstrek.webp",
+"mode": "cut"
+},
+"autos-subaru-wrx": {
+"img": "autos-subaru-wrx.webp",
+"mode": "cut"
+},
+"autos-subaru-forester": {
+"img": "autos-subaru-forester.webp",
+"mode": "cut"
+},
+"autos-cupra-born": {
+"img": "autos-cupra-born.webp",
+"mode": "cut"
+},
+"autos-bmw-x1": {
+"img": "autos-bmw-x1.webp",
+"mode": "cut"
+},
+"autos-bmw-serie-2-gran-coupe": {
+"img": "autos-bmw-serie-2-gran-coupe.webp",
+"mode": "cut"
+},
+"autos-bmw-x3": {
+"img": "autos-bmw-x3.webp",
+"mode": "cut"
+},
+"autos-bmw-x5": {
+"img": "autos-bmw-x5.webp",
+"mode": "cut"
+},
+"autos-bmw-m2": {
+"img": "autos-bmw-m2.webp",
+"mode": "cut"
+},
+"autos-bmw-m3-competition": {
+"img": "autos-bmw-m3-competition.webp",
+"mode": "cut"
+},
+"autos-mercedes-benz-clase-a": {
+"img": "autos-mercedes-benz-clase-a.webp",
+"mode": "cut"
+},
+"autos-mercedes-benz-cla": {
+"img": "autos-mercedes-benz-cla.webp",
+"mode": "cut"
+},
+"autos-mercedes-benz-gla": {
+"img": "autos-mercedes-benz-gla.webp",
+"mode": "cut"
+},
+"autos-audi-a4": {
+"img": "autos-audi-a4.webp",
+"mode": "cut"
+},
+"autos-audi-q3": {
+"img": "autos-audi-q3.webp",
+"mode": "cut"
+},
+"autos-audi-q5": {
+"img": "autos-audi-q5.webp",
+"mode": "cut"
+},
+"autos-audi-rs-3": {
+"img": "autos-audi-rs-3.webp",
+"mode": "cut"
+},
+"autos-volvo-xc40": {
+"img": "autos-volvo-xc40.webp",
+"mode": "cut"
+},
+"autos-volvo-ex30": {
+"img": "autos-volvo-ex30.webp",
+"mode": "cut"
+},
+"autos-volvo-xc60": {
+"img": "autos-volvo-xc60.webp",
+"mode": "cut"
+},
+"autos-volvo-xc90": {
+"img": "autos-volvo-xc90.webp",
+"mode": "cut"
+},
+"autos-porsche-macan": {
+"img": "autos-porsche-macan.webp",
+"mode": "cut"
+},
+"autos-porsche-cayenne": {
+"img": "autos-porsche-cayenne.webp",
+"mode": "cut"
+},
+"autos-lujo-y-suenos-mercedes-amg-gt": {
+"img": "autos-lujo-y-suenos-mercedes-amg-gt.webp",
+"mode": "cut"
+},
+"autos-lujo-y-suenos-range-rover-sport": {
+"img": "autos-lujo-y-suenos-range-rover-sport.webp",
+"mode": "cut"
+},
+"autos-lujo-y-suenos-land-rover-defender": {
+"img": "autos-lujo-y-suenos-land-rover-defender.webp",
+"mode": "cut"
+},
+"autos-yamaha-nmax-155": {
+"img": "autos-yamaha-nmax-155.webp",
+"mode": "cut"
+},
+"autos-yamaha-xtz-250": {
+"img": "autos-yamaha-xtz-250.webp",
+"mode": "cut"
+},
+"autos-yamaha-mt-03": {
+"img": "autos-yamaha-mt-03.webp",
+"mode": "cut"
+},
+"autos-yamaha-r3": {
+"img": "autos-yamaha-r3.webp",
+"mode": "cut"
+},
+"autos-yamaha-r7": {
+"img": "autos-yamaha-r7.webp",
+"mode": "cut"
+},
+"autos-yamaha-mt-09": {
+"img": "autos-yamaha-mt-09.webp",
+"mode": "cut"
+},
+"autos-yamaha-yzf-r1": {
+"img": "autos-yamaha-yzf-r1.webp",
+"mode": "cut"
+},
+"autos-suzuki-gixxer-150": {
+"img": "autos-suzuki-gixxer-150.webp",
+"mode": "cut"
+},
+"autos-yamaha-fz-2-0": {
+"img": "autos-yamaha-fz-2-0.webp",
+"mode": "cut"
+},
+"autos-honda-africa-twin": {
+"img": "autos-honda-africa-twin.webp",
+"mode": "cut"
+},
+"autos-kawasaki-z900": {
+"img": "autos-kawasaki-z900.webp",
+"mode": "cut"
+},
+"autos-kawasaki-versys-650": {
+"img": "autos-kawasaki-versys-650.webp",
+"mode": "cut"
+},
+"autos-kawasaki-ninja-zx-6r": {
+"img": "autos-kawasaki-ninja-zx-6r.webp",
+"mode": "cut"
+},
+"autos-ktm-200-duke": {
+"img": "autos-ktm-200-duke.webp",
+"mode": "cut"
+},
+"autos-ktm-390-duke": {
+"img": "autos-ktm-390-duke.webp",
+"mode": "cut"
+},
+"autos-ktm-rc-390": {
+"img": "autos-ktm-rc-390.webp",
+"mode": "cut"
+},
+"autos-bmw-motorrad-f-900-r": {
+"img": "autos-bmw-motorrad-f-900-r.webp",
+"mode": "cut"
+},
+"autos-harley-davidson-pan-america": {
+"img": "autos-harley-davidson-pan-america.webp",
+"mode": "cut"
+},
+"autos-harley-davidson-fat-boy": {
+"img": "autos-harley-davidson-fat-boy.webp",
+"mode": "cut"
+},
+"autos-harley-davidson-street-glide": {
+"img": "autos-harley-davidson-street-glide.webp",
+"mode": "cut"
+},
+"autos-ducati-panigale-v2": {
+"img": "autos-ducati-panigale-v2.webp",
+"mode": "cut"
+},
+"autos-ducati-monster": {
+"img": "autos-ducati-monster.webp",
+"mode": "cut"
+},
+"autos-royal-enfield-hunter-350": {
+"img": "autos-royal-enfield-hunter-350.webp",
+"mode": "cut"
+},
+"autos-ducati-multistrada-v4": {
+"img": "autos-ducati-multistrada-v4.webp",
+"mode": "cut"
+},
+"autos-royal-enfield-meteor-350": {
+"img": "autos-royal-enfield-meteor-350.webp",
+"mode": "cut"
+},
+"autos-royal-enfield-interceptor-650": {
+"img": "autos-royal-enfield-interceptor-650.webp",
+"mode": "cut"
+},
+"autos-bajaj-y-tvs-pulsar-ns200": {
+"img": "autos-bajaj-y-tvs-pulsar-ns200.webp",
+"mode": "cut"
+},
+"autos-triumph-bonneville-t120": {
+"img": "autos-triumph-bonneville-t120.webp",
+"mode": "cut"
+},
+"autos-bajaj-y-tvs-dominar-400": {
+"img": "autos-bajaj-y-tvs-dominar-400.webp",
+"mode": "cut"
+},
+"autos-bajaj-y-tvs-tvs-apache-rtr-200": {
+"img": "autos-bajaj-y-tvs-tvs-apache-rtr-200.webp",
+"mode": "cut"
+},
+"autos-omoda-y-jaecoo-omoda-c5": {
+"img": "autos-omoda-y-jaecoo-omoda-c5.webp",
+"mode": "cut"
+},
+"autos-geely-coolray": {
+"img": "autos-geely-coolray.webp",
+"mode": "cut"
+},
+"autos-omoda-y-jaecoo-jaecoo-7": {
+"img": "autos-omoda-y-jaecoo-jaecoo-7.webp",
+"mode": "cut"
+},
+"autos-acura-rdx": {
+"img": "autos-acura-rdx.webp",
+"mode": "cut"
+},
+"autos-acura-integra": {
+"img": "autos-acura-integra.webp",
+"mode": "cut"
+},
+"autos-lexus-nx": {
+"img": "autos-lexus-nx.webp",
+"mode": "cut"
+},
+"autos-lexus-ux": {
+"img": "autos-lexus-ux.webp",
+"mode": "cut"
+},
+"autos-lexus-rx": {
+"img": "autos-lexus-rx.webp",
+"mode": "cut"
+}
+}

@@ -1,0 +1,35 @@
+{
+  "autos/kia-k4-hb": 1, "autos/kia-k4": 1, "autos/mazda3-hb": 4, "autos/mazda-cx30": 4, "autos/mazda-mx5": 4, "autos/vw-jetta": 0,
+  "autos/vw-gti": 3, "autos/corolla": 0, "autos/rav4": 1, "autos/civic": 1, "autos/crv": 1, "autos/kicks": 1, "autos/versa": 1,
+  "autos/tucson": 3, "autos/byd-dolphin": 1, "autos/tesla-m3": 4, "autos/mustang": 2, "autos/wrangler": 0, "autos/bmw-serie3": 1,
+  "autos/mt07": 0, "autos/ninja400": 0, "autos/vespa": 0, "autos/re-classic": 2, "autos/ducati-scrambler": 0,
+
+  "tech/pixel8": 4, "tech/airpods-max": 1, "tech/switch-oled": 0, "tech/steam-deck": 3, "tech/x100v": 3, "tech/sony-a7": 1,
+  "tech/kindle": 4, "tech/quest3": 2,
+
+  "moda/af1-supreme": 0, "moda/af1": 1, "moda/aj1": 0, "moda/dunk-panda": 2, "moda/am90": 0, "moda/samba": 1, "moda/nb530": 0,
+  "moda/chuck70": 2, "moda/oldskool": 2, "moda/suede": 2, "moda/gshock": 2, "moda/seiko5": 3, "moda/prx": 0, "moda/nuptse": 3,
+
+  "viajes/los-cabos": 1, "viajes/cancun": 0, "viajes/tulum": 2, "viajes/bacalar": 0, "viajes/holbox": 1, "viajes/vallarta": 3,
+  "viajes/escondido": 0, "viajes/oaxaca": 1, "viajes/cdmx": 1, "viajes/sma": 1, "viajes/guanajuato": 1, "viajes/huasteca": 0,
+  "viajes/chiapas": 3, "viajes/mazatlan": 2, "viajes/japon": 0, "viajes/espana": 1, "viajes/paris": 1, "viajes/italia": 0,
+  "viajes/santorini": 2, "viajes/londres": 3, "viajes/nyc": 0, "viajes/disney": 1, "viajes/vegas": 3, "viajes/machu": 0, "viajes/cartagena": 1,
+
+  "casa/enganche": 1, "casa/sala": 1, "casa/recamara": 1, "casa/comedor": 1, "casa/colchon": 3, "casa/refri": 1, "casa/lavadora": 1,
+  "casa/tv65": 3, "casa/espresso": 0, "casa/airfryer": 0, "casa/robot": 0, "casa/homeoffice": 1, "casa/silla": 1, "casa/minisplit": 3,
+  "casa/cocina": 3, "casa/terraza": 0, "casa/mudanza": 2, "casa/bocina": 1, "casa/mascota": 0, "casa/lampara": 1,
+
+  "fisico/5k": 3, "fisico/10k": 0, "fisico/medio": 1, "fisico/maraton": 3, "fisico/bajar5": 0, "fisico/bajar10": 1, "fisico/musculo": 0,
+  "fisico/dominadas": 2, "fisico/lagartijas": 3, "fisico/plancha": 2, "fisico/nadar": 0, "fisico/bici": 0, "fisico/triatlon": 3,
+  "fisico/yoga": 0, "fisico/box": 2, "fisico/nevado": 3, "fisico/calistenia": 0, "fisico/dormir": 2, "fisico/agua": 1, "fisico/pasos": 2,
+
+  "finanzas/fondo3": 0, "finanzas/fondo6": 1, "finanzas/tarjeta": 1, "finanzas/prestamo": 0, "finanzas/cetes": 0, "finanzas/primer100": ["finanzas/fondo6", 0],
+  "finanzas/aguinaldo": 2, "finanzas/retiro": 2, "finanzas/enganche-auto": 3, "finanzas/colchon-trabajo": 1, "finanzas/seguro": 0,
+  "finanzas/negocio": 3, "finanzas/presupuesto": 2, "finanzas/acciones": 0, "finanzas/deuda-familiar": 1, "finanzas/boda": 0,
+  "finanzas/bebe": 2, "finanzas/vacaciones": 2, "finanzas/impuestos": 0, "finanzas/patrimonio": 1,
+
+  "estudios/ingles": 1, "estudios/toefl": 0, "estudios/frances": 1, "estudios/japones": 0, "estudios/maestria": 2, "estudios/diplomado": 0,
+  "estudios/programacion": 3, "estudios/ux": 0, "estudios/excel": 1, "estudios/marketing": 0, "estudios/pmp": 2, "estudios/titulacion": 2,
+  "estudios/manejo": 2, "estudios/barista": 1, "estudios/guitarra": 1, "estudios/piano": 1, "estudios/foto": 3, "estudios/cocina": 1,
+  "estudios/lectura": 0, "estudios/datos": 0
+}

@@ -1,0 +1,1354 @@
+[
+ {
+  "id": "kia-k4-hb",
+  "cat": "autos",
+  "name": "Kia K4 Hatchback",
+  "brand": "Kia",
+  "img": "kia-k4-hb.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "kia-k4",
+  "cat": "autos",
+  "name": "Kia K4 Sedán",
+  "brand": "Kia",
+  "img": "kia-k4.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mazda3-hb",
+  "cat": "autos",
+  "name": "Mazda 3 Hatchback",
+  "brand": "Mazda",
+  "img": "mazda3-hb.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mazda-cx30",
+  "cat": "autos",
+  "name": "Mazda CX-30",
+  "brand": "Mazda",
+  "img": "mazda-cx30.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mazda-mx5",
+  "cat": "autos",
+  "name": "Mazda MX-5 Miata",
+  "brand": "Mazda",
+  "img": "mazda-mx5.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "vw-jetta",
+  "cat": "autos",
+  "name": "Volkswagen Jetta",
+  "brand": "Volkswagen",
+  "img": "vw-jetta.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "vw-gti",
+  "cat": "autos",
+  "name": "Volkswagen Golf GTI",
+  "brand": "Volkswagen",
+  "img": "vw-gti.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "corolla",
+  "cat": "autos",
+  "name": "Toyota Corolla",
+  "brand": "Toyota",
+  "img": "corolla.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "rav4",
+  "cat": "autos",
+  "name": "Toyota RAV4",
+  "brand": "Toyota",
+  "img": "rav4.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "civic",
+  "cat": "autos",
+  "name": "Honda Civic",
+  "brand": "Honda",
+  "img": "civic.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "crv",
+  "cat": "autos",
+  "name": "Honda CR-V",
+  "brand": "Honda",
+  "img": "crv.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "kicks",
+  "cat": "autos",
+  "name": "Nissan Kicks",
+  "brand": "Nissan",
+  "img": "kicks.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "versa",
+  "cat": "autos",
+  "name": "Nissan Versa",
+  "brand": "Nissan",
+  "img": "versa.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "tucson",
+  "cat": "autos",
+  "name": "Hyundai Tucson",
+  "brand": "Hyundai",
+  "img": "tucson.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "byd-dolphin",
+  "cat": "autos",
+  "name": "BYD Dolphin",
+  "brand": "BYD",
+  "img": "byd-dolphin.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "tesla-m3",
+  "cat": "autos",
+  "name": "Tesla Model 3",
+  "brand": "Tesla",
+  "img": "tesla-m3.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mustang",
+  "cat": "autos",
+  "name": "Ford Mustang",
+  "brand": "Ford",
+  "img": "mustang.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "wrangler",
+  "cat": "autos",
+  "name": "Jeep Wrangler",
+  "brand": "Jeep",
+  "img": "wrangler.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "bmw-serie3",
+  "cat": "autos",
+  "name": "BMW Serie 3",
+  "brand": "BMW",
+  "img": "bmw-serie3.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mt07",
+  "cat": "autos",
+  "name": "Yamaha MT-07",
+  "brand": "Yamaha",
+  "img": "mt07.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "ninja400",
+  "cat": "autos",
+  "name": "Kawasaki Ninja 400",
+  "brand": "Kawasaki",
+  "img": "ninja400.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "vespa",
+  "cat": "autos",
+  "name": "Vespa Primavera",
+  "brand": "Vespa",
+  "img": "vespa.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "re-classic",
+  "cat": "autos",
+  "name": "Royal Enfield Classic 350",
+  "brand": "Royal Enfield",
+  "img": "re-classic.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "ducati-scrambler",
+  "cat": "autos",
+  "name": "Ducati Scrambler Icon",
+  "brand": "Ducati",
+  "img": "ducati-scrambler.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "af1-supreme",
+  "cat": "moda",
+  "name": "Nike × Supreme Air Force 1",
+  "brand": "Nike × Supreme",
+  "img": "af1-supreme.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "af1",
+  "cat": "moda",
+  "name": "Nike Air Force 1 '07",
+  "brand": "Nike",
+  "img": "af1.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "aj1",
+  "cat": "moda",
+  "name": "Air Jordan 1 High",
+  "brand": "Jordan",
+  "img": "aj1.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "dunk-panda",
+  "cat": "moda",
+  "name": "Nike Dunk Low Panda",
+  "brand": "Nike",
+  "img": "dunk-panda.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "samba",
+  "cat": "moda",
+  "name": "Adidas Samba OG",
+  "brand": "Adidas",
+  "img": "samba.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "campus",
+  "cat": "moda",
+  "name": "Adidas Campus",
+  "brand": "Adidas",
+  "img": "campus.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "nb530",
+  "cat": "moda",
+  "name": "New Balance 530",
+  "brand": "New Balance",
+  "img": "nb530.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "chuck70",
+  "cat": "moda",
+  "name": "Converse Chuck 70",
+  "brand": "Converse",
+  "img": "chuck70.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "oldskool",
+  "cat": "moda",
+  "name": "Vans Old Skool",
+  "brand": "Vans",
+  "img": "oldskool.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "suede",
+  "cat": "moda",
+  "name": "Puma Suede",
+  "brand": "Puma",
+  "img": "suede.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "gshock",
+  "cat": "moda",
+  "name": "Casio G-Shock",
+  "brand": "Casio",
+  "img": "gshock.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "seiko5",
+  "cat": "moda",
+  "name": "Seiko 5 Sports",
+  "brand": "Seiko",
+  "img": "seiko5.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "prx",
+  "cat": "moda",
+  "name": "Tissot PRX",
+  "brand": "Tissot",
+  "img": "prx.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "wayfarer",
+  "cat": "moda",
+  "name": "Ray-Ban Wayfarer",
+  "brand": "Ray-Ban",
+  "img": "wayfarer.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "nuptse",
+  "cat": "moda",
+  "name": "Chamarra puffer",
+  "brand": "The North Face",
+  "img": "nuptse.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "backpack",
+  "cat": "moda",
+  "name": "Mochila urbana",
+  "brand": "Mochila",
+  "img": "backpack.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "yeezy",
+  "cat": "moda",
+  "name": "Adidas Yeezy Boost 350",
+  "brand": "Adidas",
+  "img": "yeezy.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "asics",
+  "cat": "moda",
+  "name": "Asics Gel",
+  "brand": "Asics",
+  "img": "asics.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "aj4",
+  "cat": "moda",
+  "name": "Air Jordan 4",
+  "brand": "Jordan",
+  "img": "aj4.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "rolex",
+  "cat": "moda",
+  "name": "Rolex Submariner",
+  "brand": "Rolex",
+  "img": "rolex.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "iphone16pro",
+  "cat": "tech",
+  "name": "iPhone 16 Pro",
+  "brand": "Apple",
+  "img": "iphone16pro.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "iphone16",
+  "cat": "tech",
+  "name": "iPhone 16",
+  "brand": "Apple",
+  "img": "iphone16.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "galaxy-s24",
+  "cat": "tech",
+  "name": "Samsung Galaxy S",
+  "brand": "Samsung",
+  "img": "galaxy-s24.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "pixel8",
+  "cat": "tech",
+  "name": "Google Pixel",
+  "brand": "Google",
+  "img": "pixel8.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mba",
+  "cat": "tech",
+  "name": "MacBook Air M2",
+  "brand": "Apple",
+  "img": "mba.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "mbp",
+  "cat": "tech",
+  "name": "MacBook Pro 14",
+  "brand": "Apple",
+  "img": "mbp.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "ipad-air",
+  "cat": "tech",
+  "name": "iPad",
+  "brand": "Apple",
+  "img": "ipad-air.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "airpods-pro",
+  "cat": "tech",
+  "name": "AirPods Pro",
+  "brand": "Apple",
+  "img": "airpods-pro.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "airpods-max",
+  "cat": "tech",
+  "name": "AirPods Max",
+  "brand": "Apple",
+  "img": "airpods-max.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "sony-xm5",
+  "cat": "tech",
+  "name": "Audífonos Sony",
+  "brand": "Sony",
+  "img": "sony-xm5.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "ps5",
+  "cat": "tech",
+  "name": "Control DualSense (PS5)",
+  "brand": "Sony",
+  "img": "ps5.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "switch-oled",
+  "cat": "tech",
+  "name": "Nintendo Switch",
+  "brand": "Nintendo",
+  "img": "switch-oled.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "apple-watch",
+  "cat": "tech",
+  "name": "Apple Watch",
+  "brand": "Apple",
+  "img": "apple-watch.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "gopro",
+  "cat": "tech",
+  "name": "GoPro HERO",
+  "brand": "GoPro",
+  "img": "gopro.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "dji-mini",
+  "cat": "tech",
+  "name": "Dron DJI",
+  "brand": "DJI",
+  "img": "dji-mini.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "x100v",
+  "cat": "tech",
+  "name": "Fujifilm X100V",
+  "brand": "Fujifilm",
+  "img": "x100v.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "sony-a7",
+  "cat": "tech",
+  "name": "Sony Alpha 7 IV",
+  "brand": "Sony",
+  "img": "sony-a7.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "kindle",
+  "cat": "tech",
+  "name": "Kindle Paperwhite",
+  "brand": "Amazon",
+  "img": "kindle.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "quest3",
+  "cat": "tech",
+  "name": "Meta Quest 3",
+  "brand": "Meta",
+  "img": "quest3.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "imac",
+  "cat": "tech",
+  "name": "iMac",
+  "brand": "Apple",
+  "img": "imac.webp",
+  "mode": "cut"
+ },
+ {
+  "id": "enganche",
+  "cat": "casa",
+  "name": "Enganche de mi depa",
+  "brand": "Casa",
+  "img": "enganche.webp",
+  "mode": "full"
+ },
+ {
+  "id": "sala",
+  "cat": "casa",
+  "name": "Sala nueva",
+  "brand": "Casa",
+  "img": "sala.webp",
+  "mode": "full"
+ },
+ {
+  "id": "recamara",
+  "cat": "casa",
+  "name": "Recámara completa",
+  "brand": "Casa",
+  "img": "recamara.webp",
+  "mode": "full"
+ },
+ {
+  "id": "comedor",
+  "cat": "casa",
+  "name": "Comedor",
+  "brand": "Casa",
+  "img": "comedor.webp",
+  "mode": "full"
+ },
+ {
+  "id": "colchon",
+  "cat": "casa",
+  "name": "Colchón nuevo",
+  "brand": "Casa",
+  "img": "colchon.webp",
+  "mode": "full"
+ },
+ {
+  "id": "refri",
+  "cat": "casa",
+  "name": "Refrigerador",
+  "brand": "Casa",
+  "img": "refri.webp",
+  "mode": "full"
+ },
+ {
+  "id": "lavadora",
+  "cat": "casa",
+  "name": "Lavadora y secadora",
+  "brand": "Casa",
+  "img": "lavadora.webp",
+  "mode": "full"
+ },
+ {
+  "id": "tv65",
+  "cat": "casa",
+  "name": "Smart TV de 65\"",
+  "brand": "Casa",
+  "img": "tv65.webp",
+  "mode": "full"
+ },
+ {
+  "id": "espresso",
+  "cat": "casa",
+  "name": "Cafetera de espresso",
+  "brand": "Casa",
+  "img": "espresso.webp",
+  "mode": "full"
+ },
+ {
+  "id": "airfryer",
+  "cat": "casa",
+  "name": "Freidora de aire",
+  "brand": "Casa",
+  "img": "airfryer.webp",
+  "mode": "full"
+ },
+ {
+  "id": "robot",
+  "cat": "casa",
+  "name": "Robot aspiradora",
+  "brand": "Casa",
+  "img": "robot.webp",
+  "mode": "full"
+ },
+ {
+  "id": "homeoffice",
+  "cat": "casa",
+  "name": "Home office",
+  "brand": "Casa",
+  "img": "homeoffice.webp",
+  "mode": "full"
+ },
+ {
+  "id": "silla",
+  "cat": "casa",
+  "name": "Silla ergonómica",
+  "brand": "Casa",
+  "img": "silla.webp",
+  "mode": "full"
+ },
+ {
+  "id": "minisplit",
+  "cat": "casa",
+  "name": "Aire acondicionado",
+  "brand": "Casa",
+  "img": "minisplit.webp",
+  "mode": "full"
+ },
+ {
+  "id": "cocina",
+  "cat": "casa",
+  "name": "Remodelar la cocina",
+  "brand": "Casa",
+  "img": "cocina.webp",
+  "mode": "full"
+ },
+ {
+  "id": "terraza",
+  "cat": "casa",
+  "name": "Terraza con plantas",
+  "brand": "Casa",
+  "img": "terraza.webp",
+  "mode": "full"
+ },
+ {
+  "id": "mudanza",
+  "cat": "casa",
+  "name": "Mudarme solo",
+  "brand": "Casa",
+  "img": "mudanza.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bocina",
+  "cat": "casa",
+  "name": "Bocina para la sala",
+  "brand": "Casa",
+  "img": "bocina.webp",
+  "mode": "full"
+ },
+ {
+  "id": "mascota",
+  "cat": "casa",
+  "name": "Adoptar y equipar a mi perro",
+  "brand": "Casa",
+  "img": "mascota.webp",
+  "mode": "full"
+ },
+ {
+  "id": "lampara",
+  "cat": "casa",
+  "name": "Decoración e iluminación",
+  "brand": "Casa",
+  "img": "lampara.webp",
+  "mode": "full"
+ },
+ {
+  "id": "los-cabos",
+  "cat": "viajes",
+  "name": "Los Cabos",
+  "brand": "Baja California Sur",
+  "img": "los-cabos.webp",
+  "mode": "full"
+ },
+ {
+  "id": "cancun",
+  "cat": "viajes",
+  "name": "Cancún",
+  "brand": "Quintana Roo",
+  "img": "cancun.webp",
+  "mode": "full"
+ },
+ {
+  "id": "tulum",
+  "cat": "viajes",
+  "name": "Tulum",
+  "brand": "Quintana Roo",
+  "img": "tulum.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bacalar",
+  "cat": "viajes",
+  "name": "Bacalar",
+  "brand": "Quintana Roo",
+  "img": "bacalar.webp",
+  "mode": "full"
+ },
+ {
+  "id": "holbox",
+  "cat": "viajes",
+  "name": "Holbox",
+  "brand": "Quintana Roo",
+  "img": "holbox.webp",
+  "mode": "full"
+ },
+ {
+  "id": "vallarta",
+  "cat": "viajes",
+  "name": "Puerto Vallarta",
+  "brand": "Jalisco",
+  "img": "vallarta.webp",
+  "mode": "full"
+ },
+ {
+  "id": "escondido",
+  "cat": "viajes",
+  "name": "Puerto Escondido",
+  "brand": "Oaxaca",
+  "img": "escondido.webp",
+  "mode": "full"
+ },
+ {
+  "id": "oaxaca",
+  "cat": "viajes",
+  "name": "Oaxaca",
+  "brand": "Oaxaca",
+  "img": "oaxaca.webp",
+  "mode": "full"
+ },
+ {
+  "id": "cdmx",
+  "cat": "viajes",
+  "name": "Ciudad de México",
+  "brand": "CDMX",
+  "img": "cdmx.webp",
+  "mode": "full"
+ },
+ {
+  "id": "sma",
+  "cat": "viajes",
+  "name": "San Miguel de Allende",
+  "brand": "Guanajuato",
+  "img": "sma.webp",
+  "mode": "full"
+ },
+ {
+  "id": "guanajuato",
+  "cat": "viajes",
+  "name": "Guanajuato",
+  "brand": "Guanajuato",
+  "img": "guanajuato.webp",
+  "mode": "full"
+ },
+ {
+  "id": "huasteca",
+  "cat": "viajes",
+  "name": "Huasteca Potosina",
+  "brand": "San Luis Potosí",
+  "img": "huasteca.webp",
+  "mode": "full"
+ },
+ {
+  "id": "chiapas",
+  "cat": "viajes",
+  "name": "Chiapas",
+  "brand": "Chiapas",
+  "img": "chiapas.webp",
+  "mode": "full"
+ },
+ {
+  "id": "mazatlan",
+  "cat": "viajes",
+  "name": "Mazatlán",
+  "brand": "Sinaloa",
+  "img": "mazatlan.webp",
+  "mode": "full"
+ },
+ {
+  "id": "japon",
+  "cat": "viajes",
+  "name": "Japón",
+  "brand": "Asia",
+  "img": "japon.webp",
+  "mode": "full"
+ },
+ {
+  "id": "espana",
+  "cat": "viajes",
+  "name": "España",
+  "brand": "Europa",
+  "img": "espana.webp",
+  "mode": "full"
+ },
+ {
+  "id": "paris",
+  "cat": "viajes",
+  "name": "París",
+  "brand": "Europa",
+  "img": "paris.webp",
+  "mode": "full"
+ },
+ {
+  "id": "italia",
+  "cat": "viajes",
+  "name": "Italia",
+  "brand": "Europa",
+  "img": "italia.webp",
+  "mode": "full"
+ },
+ {
+  "id": "santorini",
+  "cat": "viajes",
+  "name": "Grecia",
+  "brand": "Europa",
+  "img": "santorini.webp",
+  "mode": "full"
+ },
+ {
+  "id": "londres",
+  "cat": "viajes",
+  "name": "Londres",
+  "brand": "Europa",
+  "img": "londres.webp",
+  "mode": "full"
+ },
+ {
+  "id": "nyc",
+  "cat": "viajes",
+  "name": "Nueva York",
+  "brand": "Estados Unidos",
+  "img": "nyc.webp",
+  "mode": "full"
+ },
+ {
+  "id": "disney",
+  "cat": "viajes",
+  "name": "Orlando",
+  "brand": "Estados Unidos",
+  "img": "disney.webp",
+  "mode": "full"
+ },
+ {
+  "id": "vegas",
+  "cat": "viajes",
+  "name": "Las Vegas",
+  "brand": "Estados Unidos",
+  "img": "vegas.webp",
+  "mode": "full"
+ },
+ {
+  "id": "machu",
+  "cat": "viajes",
+  "name": "Machu Picchu",
+  "brand": "Perú",
+  "img": "machu.webp",
+  "mode": "full"
+ },
+ {
+  "id": "cartagena",
+  "cat": "viajes",
+  "name": "Cartagena",
+  "brand": "Colombia",
+  "img": "cartagena.webp",
+  "mode": "full"
+ },
+ {
+  "id": "5k",
+  "cat": "fisico",
+  "name": "Correr 5K",
+  "brand": "Correr",
+  "img": "5k.webp",
+  "mode": "full"
+ },
+ {
+  "id": "10k",
+  "cat": "fisico",
+  "name": "Correr 10K",
+  "brand": "Correr",
+  "img": "10k.webp",
+  "mode": "full"
+ },
+ {
+  "id": "medio",
+  "cat": "fisico",
+  "name": "Medio maratón",
+  "brand": "Correr",
+  "img": "medio.webp",
+  "mode": "full"
+ },
+ {
+  "id": "maraton",
+  "cat": "fisico",
+  "name": "Maratón",
+  "brand": "Correr",
+  "img": "maraton.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bajar5",
+  "cat": "fisico",
+  "name": "Bajar 5 kg",
+  "brand": "Peso",
+  "img": "bajar5.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bajar10",
+  "cat": "fisico",
+  "name": "Bajar 10 kg",
+  "brand": "Peso",
+  "img": "bajar10.webp",
+  "mode": "full"
+ },
+ {
+  "id": "musculo",
+  "cat": "fisico",
+  "name": "Ganar músculo",
+  "brand": "Gym",
+  "img": "musculo.webp",
+  "mode": "full"
+ },
+ {
+  "id": "dominadas",
+  "cat": "fisico",
+  "name": "20 dominadas",
+  "brand": "Fuerza",
+  "img": "dominadas.webp",
+  "mode": "full"
+ },
+ {
+  "id": "lagartijas",
+  "cat": "fisico",
+  "name": "50 lagartijas",
+  "brand": "Fuerza",
+  "img": "lagartijas.webp",
+  "mode": "full"
+ },
+ {
+  "id": "plancha",
+  "cat": "fisico",
+  "name": "Plancha de 3 minutos",
+  "brand": "Fuerza",
+  "img": "plancha.webp",
+  "mode": "full"
+ },
+ {
+  "id": "nadar",
+  "cat": "fisico",
+  "name": "Nadar 1 km",
+  "brand": "Natación",
+  "img": "nadar.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bici",
+  "cat": "fisico",
+  "name": "Rodar 50 km en bici",
+  "brand": "Ciclismo",
+  "img": "bici.webp",
+  "mode": "full"
+ },
+ {
+  "id": "triatlon",
+  "cat": "fisico",
+  "name": "Triatlón sprint",
+  "brand": "Triatlón",
+  "img": "triatlon.webp",
+  "mode": "full"
+ },
+ {
+  "id": "yoga",
+  "cat": "fisico",
+  "name": "Yoga diario",
+  "brand": "Movilidad",
+  "img": "yoga.webp",
+  "mode": "full"
+ },
+ {
+  "id": "box",
+  "cat": "fisico",
+  "name": "Aprender box",
+  "brand": "Combate",
+  "img": "box.webp",
+  "mode": "full"
+ },
+ {
+  "id": "nevado",
+  "cat": "fisico",
+  "name": "Subir el Nevado de Toluca",
+  "brand": "Montaña",
+  "img": "nevado.webp",
+  "mode": "full"
+ },
+ {
+  "id": "calistenia",
+  "cat": "fisico",
+  "name": "Calistenia",
+  "brand": "Fuerza",
+  "img": "calistenia.webp",
+  "mode": "full"
+ },
+ {
+  "id": "dormir",
+  "cat": "fisico",
+  "name": "Dormir 8 horas",
+  "brand": "Salud",
+  "img": "dormir.webp",
+  "mode": "full"
+ },
+ {
+  "id": "agua",
+  "cat": "fisico",
+  "name": "Tomar 2 L de agua diario",
+  "brand": "Salud",
+  "img": "agua.webp",
+  "mode": "full"
+ },
+ {
+  "id": "pasos",
+  "cat": "fisico",
+  "name": "10,000 pasos diarios",
+  "brand": "Salud",
+  "img": "pasos.webp",
+  "mode": "full"
+ },
+ {
+  "id": "fondo3",
+  "cat": "finanzas",
+  "name": "Fondo de emergencia (3 meses)",
+  "brand": "Ahorro",
+  "img": "fondo3.webp",
+  "mode": "full"
+ },
+ {
+  "id": "fondo6",
+  "cat": "finanzas",
+  "name": "Fondo de emergencia (6 meses)",
+  "brand": "Ahorro",
+  "img": "fondo6.webp",
+  "mode": "full"
+ },
+ {
+  "id": "tarjeta",
+  "cat": "finanzas",
+  "name": "Salir de mi tarjeta de crédito",
+  "brand": "Deudas",
+  "img": "tarjeta.webp",
+  "mode": "full"
+ },
+ {
+  "id": "prestamo",
+  "cat": "finanzas",
+  "name": "Liquidar un préstamo",
+  "brand": "Deudas",
+  "img": "prestamo.webp",
+  "mode": "full"
+ },
+ {
+  "id": "cetes",
+  "cat": "finanzas",
+  "name": "Invertir en CETES",
+  "brand": "Inversión",
+  "img": "cetes.webp",
+  "mode": "full"
+ },
+ {
+  "id": "primer100",
+  "cat": "finanzas",
+  "name": "Mis primeros $100,000",
+  "brand": "Ahorro",
+  "img": "primer100.webp",
+  "mode": "full"
+ },
+ {
+  "id": "aguinaldo",
+  "cat": "finanzas",
+  "name": "Ahorrar mi aguinaldo",
+  "brand": "Ahorro",
+  "img": "aguinaldo.webp",
+  "mode": "full"
+ },
+ {
+  "id": "retiro",
+  "cat": "finanzas",
+  "name": "Ahorro voluntario para el retiro",
+  "brand": "Retiro",
+  "img": "retiro.webp",
+  "mode": "full"
+ },
+ {
+  "id": "enganche-auto",
+  "cat": "finanzas",
+  "name": "Enganche de coche",
+  "brand": "Ahorro",
+  "img": "enganche-auto.webp",
+  "mode": "full"
+ },
+ {
+  "id": "colchon-trabajo",
+  "cat": "finanzas",
+  "name": "Colchón para cambiar de trabajo",
+  "brand": "Ahorro",
+  "img": "colchon-trabajo.webp",
+  "mode": "full"
+ },
+ {
+  "id": "seguro",
+  "cat": "finanzas",
+  "name": "Seguro de gastos médicos",
+  "brand": "Protección",
+  "img": "seguro.webp",
+  "mode": "full"
+ },
+ {
+  "id": "negocio",
+  "cat": "finanzas",
+  "name": "Capital para mi negocio",
+  "brand": "Emprender",
+  "img": "negocio.webp",
+  "mode": "full"
+ },
+ {
+  "id": "presupuesto",
+  "cat": "finanzas",
+  "name": "Ordenar mi presupuesto",
+  "brand": "Hábitos",
+  "img": "presupuesto.webp",
+  "mode": "full"
+ },
+ {
+  "id": "acciones",
+  "cat": "finanzas",
+  "name": "Empezar a invertir en bolsa",
+  "brand": "Inversión",
+  "img": "acciones.webp",
+  "mode": "full"
+ },
+ {
+  "id": "deuda-familiar",
+  "cat": "finanzas",
+  "name": "Pagarle a mi familia",
+  "brand": "Deudas",
+  "img": "deuda-familiar.webp",
+  "mode": "full"
+ },
+ {
+  "id": "boda",
+  "cat": "finanzas",
+  "name": "Mi boda",
+  "brand": "Ahorro",
+  "img": "boda.webp",
+  "mode": "full"
+ },
+ {
+  "id": "bebe",
+  "cat": "finanzas",
+  "name": "Llegada del bebé",
+  "brand": "Ahorro",
+  "img": "bebe.webp",
+  "mode": "full"
+ },
+ {
+  "id": "vacaciones",
+  "cat": "finanzas",
+  "name": "Fondo de vacaciones",
+  "brand": "Ahorro",
+  "img": "vacaciones.webp",
+  "mode": "full"
+ },
+ {
+  "id": "impuestos",
+  "cat": "finanzas",
+  "name": "Apartado para impuestos",
+  "brand": "Hábitos",
+  "img": "impuestos.webp",
+  "mode": "full"
+ },
+ {
+  "id": "patrimonio",
+  "cat": "finanzas",
+  "name": "Mi primer terreno",
+  "brand": "Patrimonio",
+  "img": "patrimonio.webp",
+  "mode": "full"
+ },
+ {
+  "id": "ingles",
+  "cat": "estudios",
+  "name": "Inglés nivel B2",
+  "brand": "Idiomas",
+  "img": "ingles.webp",
+  "mode": "full"
+ },
+ {
+  "id": "toefl",
+  "cat": "estudios",
+  "name": "Certificación TOEFL",
+  "brand": "Idiomas",
+  "img": "toefl.webp",
+  "mode": "full"
+ },
+ {
+  "id": "frances",
+  "cat": "estudios",
+  "name": "Aprender francés",
+  "brand": "Idiomas",
+  "img": "frances.webp",
+  "mode": "full"
+ },
+ {
+  "id": "japones",
+  "cat": "estudios",
+  "name": "Aprender japonés",
+  "brand": "Idiomas",
+  "img": "japones.webp",
+  "mode": "full"
+ },
+ {
+  "id": "maestria",
+  "cat": "estudios",
+  "name": "Maestría",
+  "brand": "Posgrado",
+  "img": "maestria.webp",
+  "mode": "full"
+ },
+ {
+  "id": "diplomado",
+  "cat": "estudios",
+  "name": "Diplomado",
+  "brand": "Educación continua",
+  "img": "diplomado.webp",
+  "mode": "full"
+ },
+ {
+  "id": "programacion",
+  "cat": "estudios",
+  "name": "Aprender a programar",
+  "brand": "Tecnología",
+  "img": "programacion.webp",
+  "mode": "full"
+ },
+ {
+  "id": "ux",
+  "cat": "estudios",
+  "name": "Curso de diseño UX",
+  "brand": "Diseño",
+  "img": "ux.webp",
+  "mode": "full"
+ },
+ {
+  "id": "excel",
+  "cat": "estudios",
+  "name": "Excel avanzado",
+  "brand": "Oficina",
+  "img": "excel.webp",
+  "mode": "full"
+ },
+ {
+  "id": "marketing",
+  "cat": "estudios",
+  "name": "Marketing digital",
+  "brand": "Negocios",
+  "img": "marketing.webp",
+  "mode": "full"
+ },
+ {
+  "id": "pmp",
+  "cat": "estudios",
+  "name": "Certificación PMP",
+  "brand": "Negocios",
+  "img": "pmp.webp",
+  "mode": "full"
+ },
+ {
+  "id": "titulacion",
+  "cat": "estudios",
+  "name": "Titularme",
+  "brand": "Universidad",
+  "img": "titulacion.webp",
+  "mode": "full"
+ },
+ {
+  "id": "manejo",
+  "cat": "estudios",
+  "name": "Licencia de manejo",
+  "brand": "Personal",
+  "img": "manejo.webp",
+  "mode": "full"
+ },
+ {
+  "id": "barista",
+  "cat": "estudios",
+  "name": "Curso de barista",
+  "brand": "Oficios",
+  "img": "barista.webp",
+  "mode": "full"
+ },
+ {
+  "id": "guitarra",
+  "cat": "estudios",
+  "name": "Aprender guitarra",
+  "brand": "Música",
+  "img": "guitarra.webp",
+  "mode": "full"
+ },
+ {
+  "id": "piano",
+  "cat": "estudios",
+  "name": "Aprender piano",
+  "brand": "Música",
+  "img": "piano.webp",
+  "mode": "full"
+ },
+ {
+  "id": "foto",
+  "cat": "estudios",
+  "name": "Curso de fotografía",
+  "brand": "Arte",
+  "img": "foto.webp",
+  "mode": "full"
+ },
+ {
+  "id": "estudios-cocina",
+  "cat": "estudios",
+  "name": "Curso de cocina",
+  "brand": "Oficios",
+  "img": "estudios-cocina.webp",
+  "mode": "full"
+ },
+ {
+  "id": "lectura",
+  "cat": "estudios",
+  "name": "Leer 24 libros al año",
+  "brand": "Hábitos",
+  "img": "lectura.webp",
+  "mode": "full"
+ },
+ {
+  "id": "datos",
+  "cat": "estudios",
+  "name": "Ciencia de datos",
+  "brand": "Tecnología",
+  "img": "datos.webp",
+  "mode": "full"
+ }
+]

@@ -1,0 +1,231 @@
+<meta charset="utf-8">
+<title>UGOAL Estudio Blanco</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Big+Shoulders+Display:wght@600..900&family=DM+Sans:opsz,wght@9..40,400..700&family=Geist:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+/* Layout: página de comparación; arriba el selector de 3 propuestas, debajo dos celulares (Inicio y Explorar) que cambian de acento y tipografía */
+:root{
+  --bg:#FFFFFF; --panel:#F4F4F2; --ink:#0B0B0C; --muted:#67676C; --line:#E5E5E1;
+  --f-ui:"Geist","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#0E0E10; --panel:#18181B; --ink:#F4F4F2; --muted:#A0A0A6; --line:#2A2A2F; color-scheme:dark; }
+}
+:root[data-theme="dark"]{ --bg:#0E0E10; --panel:#18181B; --ink:#F4F4F2; --muted:#A0A0A6; --line:#2A2A2F; color-scheme:dark; }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:6px}
+.page{max-width:1080px;margin:0 auto;padding-block:28px 48px;display:flex;flex-direction:column;gap:28px}
+.intro{display:flex;flex-direction:column;gap:8px;max-width:640px}
+.eyebrow{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.intro h1{font-size:clamp(30px,5vw,44px);line-height:1.05;letter-spacing:-.03em;margin:0;font-weight:700;text-wrap:balance}
+.intro p{margin:0;color:var(--muted);font-size:16px}
+.picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.pick{border:1.5px solid var(--line);background:var(--bg);border-radius:16px;padding:14px;text-align:left;display:flex;flex-direction:column;gap:6px;min-width:0}
+.pick[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.pick .sw{display:flex;align-items:center;gap:8px}
+.pick .dot{width:18px;height:18px;border-radius:50%;flex:none}
+.pick b{font-size:15px}
+.pick small{color:var(--muted);font-size:13px;line-height:1.3}
+.pick .sample{font-size:24px;line-height:1.1}
+.bar-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.mode{display:inline-flex;background:var(--panel);border-radius:999px;padding:3px}
+.mode button{border:0;background:transparent;border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;color:var(--muted)}
+.mode button[aria-pressed="true"]{background:var(--bg);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.note{font-size:14px;color:var(--muted);margin:0;max-width:640px}
+.phones{display:flex;gap:40px;justify-content:center;flex-wrap:wrap}
+.phone-wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
+.phone-label{font-size:13px;color:var(--muted);font-weight:600}
+.credits{border-top:1px solid var(--line);padding-top:18px;font-size:12px;color:var(--muted)}
+.credits summary{cursor:pointer;font-weight:600}
+.credits ul{columns:2 260px;padding-left:16px;margin:10px 0 0}
+.credits a{color:inherit}
+@media (max-width:560px){ .picker{grid-template-columns:1fr} }
+
+/* ===== Celular (la app) ===== */
+.stage{--s-bg:#FFFFFF;--s-card:#F3F3F1;--s-ink:#0B0B0C;--s-muted:#6B6B70;--s-line:#E6E6E2;--s-track:#E9E9E6;--s-glass:rgba(255,255,255,.86)}
+.stage[data-mode="dark"]{--s-bg:#0B0B0D;--s-card:#17171A;--s-ink:#F5F5F3;--s-muted:#9C9CA2;--s-line:#26262B;--s-track:#2A2A2F;--s-glass:rgba(11,11,13,.82)}
+.stage[data-v="a"]{--acc:#FF5A1F;--d:"Archivo","Arial Black",sans-serif;--b:"Archivo",Arial,sans-serif;--d-w:800;--d-st:125%;--d-ls:-.03em;--d-tt:none;--d-scale:1}
+.stage[data-v="b"]{--acc:#2343F2;--d:"Instrument Serif",Georgia,serif;--b:"Geist","Helvetica Neue",Arial,sans-serif;--d-w:400;--d-st:100%;--d-ls:-.015em;--d-tt:none;--d-scale:1.22}
+.stage[data-v="c"]{--acc:#00A36C;--d:"Big Shoulders Display","Arial Narrow",sans-serif;--b:"DM Sans",Arial,sans-serif;--d-w:800;--d-st:100%;--d-ls:.005em;--d-tt:uppercase;--d-scale:1.18}
+.stage[data-mode="dark"][data-v="a"]{--acc:#FF6A33}
+.stage[data-mode="dark"][data-v="b"]{--acc:#7086FF}
+.stage[data-mode="dark"][data-v="c"]{--acc:#1FCB8A}
+
+.phone{width:min(340px,calc(100vw - 32px));height:700px;border-radius:44px;border:10px solid #111113;background:var(--s-bg);color:var(--s-ink);
+  overflow:hidden;position:relative;box-shadow:0 30px 60px -30px rgba(0,0,0,.45);font-family:var(--b);font-size:14px;transition:background .3s}
+.scr{height:100%;overflow-y:auto;padding:0 18px 92px;scrollbar-width:none;display:flex;flex-direction:column;gap:18px}
+.scr::-webkit-scrollbar{display:none}
+.sb{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:600;padding-top:12px;font-family:var(--f-ui)}
+.sb .ic{display:flex;gap:5px;align-items:center}
+.sb .ic i{display:block;width:16px;height:9px;border-radius:2px;border:1.5px solid currentColor}
+.top{display:flex;justify-content:space-between;align-items:center}
+.wm{font-family:var(--d);font-weight:var(--d-w);font-stretch:var(--d-st);font-size:calc(19px * var(--d-scale));letter-spacing:.02em;display:inline-flex;align-items:center;text-transform:uppercase}
+.wm .o{display:inline-block;width:.74em;height:.74em;border-radius:50%;margin:0 .05em;box-shadow:inset 0 0 0 .1em var(--acc);background:radial-gradient(circle,var(--acc) 0 24%,transparent 25%)}
+.av{width:32px;height:32px;border-radius:50%;background:var(--s-card);display:grid;place-items:center;font-size:12px;font-weight:700}
+.dsp{font-family:var(--d);font-weight:var(--d-w);font-stretch:var(--d-st);letter-spacing:var(--d-ls);text-transform:var(--d-tt);line-height:1;margin:0}
+.h1{font-size:calc(34px * var(--d-scale))}
+.ey{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--s-muted);font-weight:600}
+.total{display:flex;flex-direction:column;gap:6px}
+.total .num{font-size:calc(40px * var(--d-scale))}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 11px;font-size:12px;font-weight:600;background:var(--s-card)}
+.pill.acc{background:var(--acc);color:#fff}
+.hero{display:flex;flex-direction:column;gap:12px}
+.ph{position:relative;border-radius:22px;overflow:hidden;background:var(--s-card)}
+.ph img{display:block;width:100%;height:100%;object-fit:cover}
+.hero .ph{aspect-ratio:4/3.1}
+.tag{position:absolute;left:10px;top:10px;background:var(--s-glass);backdrop-filter:blur(8px);border-radius:999px;padding:4px 10px;font-size:11px;font-weight:600}
+.row{display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+.track{height:6px;border-radius:9px;background:var(--s-track);overflow:hidden}
+.track i{display:block;height:100%;border-radius:9px;background:var(--acc)}
+.small{font-size:12px;color:var(--s-muted)}
+.btn{border:0;border-radius:999px;background:var(--s-ink);color:var(--s-bg);font-weight:700;padding:12px 16px;font-size:14px;width:100%}
+.btn .plus{color:var(--acc)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mini{display:flex;flex-direction:column;gap:8px}
+.mini .ph{aspect-ratio:1/1.12}
+.mini .nm{font-size:calc(17px * var(--d-scale))}
+.sec{display:flex;justify-content:space-between;align-items:baseline}
+.sec .dsp{font-size:calc(20px * var(--d-scale))}
+.sec a{font-size:12px;color:var(--acc);font-weight:600;text-decoration:none}
+.tabs{position:absolute;left:0;right:0;bottom:0;background:var(--s-glass);backdrop-filter:blur(14px);border-top:1px solid var(--s-line);display:grid;grid-template-columns:repeat(5,1fr);align-items:center;padding:8px 6px 18px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;font-weight:600;color:var(--s-muted)}
+.tab svg{width:21px;height:21px}
+.tab.on{color:var(--s-ink)}
+.tab.on svg{color:var(--acc)}
+.fab{width:44px;height:44px;border-radius:50%;background:var(--acc);color:#fff;display:grid;place-items:center;font-size:26px;margin:0 auto;line-height:1}
+.search{display:flex;align-items:center;gap:8px;background:var(--s-card);border-radius:14px;padding:11px 13px;color:var(--s-muted);font-size:13px}
+.chips{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;margin:0 -18px;padding:0 18px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border-radius:999px;padding:7px 13px;font-size:12px;font-weight:600;border:1px solid var(--s-line)}
+.chip.on{background:var(--s-ink);color:var(--s-bg);border-color:var(--s-ink)}
+.mason{columns:2;column-gap:10px}
+.it{break-inside:avoid;margin-bottom:12px;display:flex;flex-direction:column;gap:6px}
+.it .ph{border-radius:16px}
+.it .t1{font-size:12.5px;font-weight:600;line-height:1.2}
+.it .t2{font-size:11px;color:var(--s-muted)}
+.heart{position:absolute;right:8px;bottom:8px;width:28px;height:28px;border-radius:50%;background:var(--s-glass);display:grid;place-items:center}
+.heart svg{width:14px;height:14px}
+.heart.on svg{color:var(--acc);fill:var(--acc)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<main class="page">
+  <header class="intro">
+    <span class="eyebrow">UGOAL · Propuestas de estilo</span>
+    <h1>Estudio blanco, en tres versiones</h1>
+    <p>Las tres versiones comparten la misma base limpia, tipo Apple. Cambian el color de acento y la tipografía de los titulares. Toca cada una y compárala con tus sueños reales.</p>
+  </header>
+
+  <div class="picker" role="group" aria-label="Propuesta">
+    <button class="pick" data-v="a" aria-pressed="true">
+      <span class="sw"><span class="dot" style="background:#FF5A1F"></span><b>A · Señal</b></span>
+      <span class="sample" style="font-family:'Archivo';font-weight:800;font-stretch:125%;letter-spacing:-.03em">$96,600</span>
+      <small>Naranja intenso y titulares anchos y pesados. Energía de marca deportiva.</small>
+    </button>
+    <button class="pick" data-v="b" aria-pressed="false">
+      <span class="sw"><span class="dot" style="background:#2343F2"></span><b>B · Galería</b></span>
+      <span class="sample" style="font-family:'Instrument Serif';font-size:30px">$96,600</span>
+      <small>Azul cobalto y titulares con serifa. Lujo editorial, como revista de moda.</small>
+    </button>
+    <button class="pick" data-v="c" aria-pressed="false">
+      <span class="sw"><span class="dot" style="background:#00A36C"></span><b>C · Meta</b></span>
+      <span class="sample" style="font-family:'Big Shoulders Display';font-weight:800;font-size:30px">$96,600</span>
+      <small>Verde dinero y titulares altos y condensados. Marcador deportivo y logro.</small>
+    </button>
+  </div>
+
+  <div class="bar-row">
+    <p class="note" id="vnote"></p>
+    <div class="mode" role="group" aria-label="Modo de color">
+      <button data-mode="light" aria-pressed="true">Claro</button>
+      <button data-mode="dark" aria-pressed="false">Oscuro</button>
+    </div>
+  </div>
+
+  <section class="stage" id="stage" data-v="a" data-mode="light">
+    <div class="phones">
+      <div class="phone-wrap"><div class="phone"><div class="scr" id="home"></div><nav class="tabs" id="tabs1"></nav></div><span class="phone-label">Inicio · Mis metas</span></div>
+      <div class="phone-wrap"><div class="phone"><div class="scr" id="explore"></div><nav class="tabs" id="tabs2"></nav></div><span class="phone-label">Explorar · Ideas</span></div>
+    </div>
+  </section>
+
+  <details class="credits"><summary>Créditos de las fotos (Wikimedia Commons)</summary><ul id="credits"><li>Cargando créditos…</li></ul></details>
+</main>
+
+<script>
+(() => {
+const money = n => new Intl.NumberFormat('es-MX',{style:'currency',currency:'MXN',maximumFractionDigits:0}).format(Math.round(n));
+const DAY = 864e5, today = new Date(); today.setHours(0,0,0,0);
+const quincenas = d => Math.max(1, Math.ceil((new Date(d+'T00:00:00') - today)/DAY/15));
+const goals = [
+  {k:'kia-k4', name:'Kia K4', cat:'Coche', price:460000, saved:96600, due:'2028-06-30', dueTxt:'jun 2028'},
+  {k:'los-cabos', name:'Los Cabos 2027', cat:'Viaje', price:38000, saved:14200, due:'2027-08-15', dueTxt:'ago 2027'},
+  {k:'af1', name:'Nike × Supreme AF1', cat:'Tenis', price:4800, saved:3100, due:'2027-01-31', dueTxt:'ene 2027'}
+];
+goals.forEach(g => { g.pct = g.saved/g.price*100; g.q = (g.price-g.saved)/quincenas(g.due); });
+const total = goals.reduce((s,g)=>s+g.saved,0), dueQ = goals.reduce((s,g)=>s+g.q,0);
+const feed = [
+  ['mustang','Ford Mustang Mach 1','Vehículos','4/5'],['japan','Japón · Monte Fuji','Viajes','3/4'],
+  ['yamaha-mt07','Yamaha MT-07','Vehículos','4/3'],['jordan1','Air Jordan 1 High','Moda','1/1'],
+  ['iphone','iPhone 15 Pro','Tecnología','4/3'],['machu','Machu Picchu','Viajes','4/5'],
+  ['samba','Adidas Samba OG','Moda','4/3'],['tesla3','Tesla Model 3','Vehículos','1/1'],
+  ['concert','Festival de música','Experiencias','4/5'],['nb550','New Balance 550','Moda','1/1'],
+  ['ducati','Ducati Monster','Vehículos','4/3'],['paris','París','Viajes','3/4']
+];
+const ico = {
+  home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="9" rx="2"/><rect x="13.5" y="3" width="7.5" height="5" rx="2"/><rect x="3" y="15" width="7.5" height="6" rx="2"/><rect x="13.5" y="11" width="7.5" height="10" rx="2"/></svg>',
+  exp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  grp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-6 6.5-6s5.9 2.4 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M17 14c2.5 0 4.2 2 4.6 5"/></svg>',
+  me:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.2 4.2-6.5 8-6.5s7 2.3 8 6.5"/></svg>',
+  heart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>'
+};
+const tabs = on => `<span class="tab ${on==='home'?'on':''}">${ico.home}Inicio</span><span class="tab ${on==='exp'?'on':''}">${ico.exp}Explorar</span><span class="fab" aria-hidden="true">+</span><span class="tab">${ico.grp}Grupos</span><span class="tab">${ico.me}Perfil</span>`;
+const sb = `<div class="sb"><span>9:41</span><span class="ic"><span>5G</span><i></i></span></div>`;
+const top = `<div class="top"><span class="wm">UG<span class="o"></span>AL</span><span class="av">C</span></div>`;
+const k = goals[0];
+document.getElementById('home').innerHTML = `${sb}${top}
+  <div class="total"><span class="ey">Llevas ahorrado</span><p class="dsp num">${money(total)}</p>
+    <div class="pills"><span class="pill acc">Esta quincena: ${money(dueQ)}</span><span class="pill">Racha de 6 semanas</span></div></div>
+  <article class="hero"><div class="ph"><img src="fotos/${k.k}.jpg" alt="${k.name}"><span class="tag">${k.cat} · ${k.dueTxt}</span></div>
+    <div class="row"><h2 class="dsp" style="font-size:calc(28px * var(--d-scale))">${k.name}</h2><span class="dsp" style="font-size:calc(22px * var(--d-scale));color:var(--acc)">${Math.round(k.pct)}%</span></div>
+    <div class="track"><i style="width:${k.pct}%"></i></div>
+    <div class="row small"><span>${money(k.saved)} de ${money(k.price)}</span><span>${money(k.q)} por quincena</span></div>
+    <button class="btn" type="button"><span class="plus">+</span> Aparté</button></article>
+  <div class="sec"><span class="dsp">Mis sueños</span><a href="#" onclick="return false">Ver todos</a></div>
+  <div class="duo">${goals.slice(1).map(g=>`<article class="mini"><div class="ph"><img src="fotos/${g.k}.jpg" alt="${g.name}"><span class="tag">${g.cat}</span></div>
+    <span class="dsp nm">${g.name}</span><div class="track"><i style="width:${g.pct}%"></i></div><span class="small">${Math.round(g.pct)}% · ${money(g.q)}/quinc.</span></article>`).join('')}</div>`;
+document.getElementById('explore').innerHTML = `${sb}
+  <h1 class="dsp h1">Explorar</h1>
+  <div class="search">${ico.exp.replace('<svg','<svg width="16" height="16"')} Busca un sueño: moto, Japón, Jordan…</div>
+  <div class="chips">${['Todo','Vehículos','Moda','Tecnología','Viajes','Físicas','Hogar','Experiencias'].map((c,i)=>`<span class="chip ${i?'':'on'}">${c}</span>`).join('')}</div>
+  <div class="mason">${feed.map(([f,n,c,r],i)=>`<article class="it"><div class="ph" style="aspect-ratio:${r}"><img src="fotos/${f}.jpg" alt="${n}"><span class="heart ${i===1||i===3?'on':''}">${ico.heart}</span></div><span class="t1">${n}</span><span class="t2">${c}</span></article>`).join('')}</div>`;
+document.getElementById('tabs1').innerHTML = tabs('home');
+document.getElementById('tabs2').innerHTML = tabs('exp');
+
+const notes = {
+  a:'A · Señal: el naranja marca todo lo que se puede tocar y el avance. Los titulares anchos se sienten fuertes, como una campaña deportiva.',
+  b:'B · Galería: la serifa le da un aire de revista de lujo y el azul cobalto se siente confiable y tecnológico.',
+  c:'C · Meta: el verde se asocia con dinero y logro, y los titulares condensados se leen como un marcador.'
+};
+const stage = document.getElementById('stage');
+function setV(v){ stage.dataset.v = v; document.querySelectorAll('.pick').forEach(b=>b.setAttribute('aria-pressed', b.dataset.v===v)); document.getElementById('vnote').textContent = notes[v]; }
+function setM(m){ stage.dataset.mode = m; document.querySelectorAll('.mode button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.mode===m)); }
+document.querySelectorAll('.pick').forEach(b=>b.addEventListener('click',()=>setV(b.dataset.v)));
+document.querySelectorAll('.mode button').forEach(b=>b.addEventListener('click',()=>setM(b.dataset.mode)));
+setV('a');
+const rt = document.documentElement.dataset.theme;
+setM(rt ? rt : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
+fetch('fotos/creditos.json').then(r=>r.json()).then(c=>{
+  const used = new Set(['kia-k4','los-cabos','af1',...feed.map(f=>f[0])]);
+  const esc = s => String(s).replace(/[&<>"]/g, x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]));
+  document.getElementById('credits').innerHTML = Object.entries(c).filter(([k])=>used.has(k)).map(([k,v])=>`<li><a href="${esc(v.page)}" target="_blank" rel="noopener">${esc(v.title)}</a> · ${esc(v.artist||'Autor desconocido')} · ${esc(v.license)}</li>`).join('');
+}).catch(()=>{ document.getElementById('credits').innerHTML = '<li>No se pudieron cargar los créditos.</li>'; });
+})();
+</script>
